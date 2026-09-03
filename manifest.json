@@ -1,8 +1,8 @@
 {
   "page": "https://balraj1604.github.io/kikiesim/",
-  "published": "2026-09-03T16:30:50",
+  "published": "2026-09-03T16:32:01",
   "how_to_use": "This page is a numbered file drop published by Balraj.\nEvery item below has a number. When he says \"image 7\" / \"number 7\" / \"file 7\" in\nconversation, he means item 7 on this page \u2014 open that item's direct URL to see it.\nImages are numbered first, then videos, PDFs, and documents.\nA plain-text list of every number, filename and direct link is at https://balraj1604.github.io/kikiesim/manifest.txt\nand the same data as JSON is at https://balraj1604.github.io/kikiesim/manifest.json.",
-  "count": 4606,
+  "count": 4605,
   "files": [
     {
       "n": 1,
@@ -50497,17 +50497,6 @@
     {
       "n": 4591,
       "label": "#4591",
-      "name": "HANDOVER-2026-09-03.md",
-      "kind": "markdown",
-      "size": "43.5 KB",
-      "bytes": 44494,
-      "path": "files/HANDOVER-2026-09-03.md",
-      "url": "https://balraj1604.github.io/kikiesim/files/HANDOVER-2026-09-03.md",
-      "fspath": "files/HANDOVER-2026-09-03.md"
-    },
-    {
-      "n": 4592,
-      "label": "#4592",
       "name": "app-screen-library-1.0.24-27/manifest.json",
       "kind": "text",
       "size": "10.4 KB",
@@ -50517,8 +50506,8 @@
       "fspath": "files/app-screen-library-1.0.24-27/manifest.json"
     },
     {
-      "n": 4593,
-      "label": "#4593",
+      "n": 4592,
+      "label": "#4592",
       "name": "Emirates Illustrations/3d aseest explore globe /_manifest.csv",
       "kind": "text",
       "size": "4.1 KB",
@@ -50528,8 +50517,8 @@
       "fspath": "files/Emirates Illustrations/3d aseest explore globe /_manifest.csv"
     },
     {
-      "n": 4594,
-      "label": "#4594",
+      "n": 4593,
+      "label": "#4593",
       "name": "Emirates Illustrations/_final.json",
       "kind": "text",
       "size": "21.9 KB",
@@ -50539,8 +50528,8 @@
       "fspath": "files/Emirates Illustrations/_final.json"
     },
     {
-      "n": 4595,
-      "label": "#4595",
+      "n": 4594,
+      "label": "#4594",
       "name": "Emirates Illustrations/_raw_routes.json",
       "kind": "text",
       "size": "61.7 KB",
@@ -50550,8 +50539,8 @@
       "fspath": "files/Emirates Illustrations/_raw_routes.json"
     },
     {
-      "n": 4596,
-      "label": "#4596",
+      "n": 4595,
+      "label": "#4595",
       "name": "Emirates Illustrations/widget /generated_travel_images_session/manifest.csv",
       "kind": "text",
       "size": "5.3 KB",
@@ -50561,8 +50550,8 @@
       "fspath": "files/Emirates Illustrations/widget /generated_travel_images_session/manifest.csv"
     },
     {
-      "n": 4597,
-      "label": "#4597",
+      "n": 4596,
+      "label": "#4596",
       "name": "Emirates Illustrations/widget /generated_travel_images_session/README.txt",
       "kind": "text",
       "size": "2.5 KB",
@@ -50572,8 +50561,8 @@
       "fspath": "files/Emirates Illustrations/widget /generated_travel_images_session/README.txt"
     },
     {
-      "n": 4598,
-      "label": "#4598",
+      "n": 4597,
+      "label": "#4597",
       "name": "FULL-SESSION-TRANSCRIPT-2026-08-31-to-2026-09-03.json",
       "kind": "text",
       "size": "612.8 KB",
@@ -50583,8 +50572,8 @@
       "fspath": "files/FULL-SESSION-TRANSCRIPT-2026-08-31-to-2026-09-03.json"
     },
     {
-      "n": 4599,
-      "label": "#4599",
+      "n": 4598,
+      "label": "#4598",
       "name": "app-screen-library-1.0.24-27/gallery.html",
       "kind": "file",
       "size": "15.5 KB",
@@ -50594,8 +50583,8 @@
       "fspath": "files/app-screen-library-1.0.24-27/gallery.html"
     },
     {
-      "n": 4600,
-      "label": "#4600",
+      "n": 4599,
+      "label": "#4599",
       "name": "Emirates Illustrations/card asset /reward-card-motion copy.html",
       "kind": "file",
       "size": "11.2 KB",
@@ -50605,8 +50594,8 @@
       "fspath": "files/Emirates Illustrations/card asset /reward-card-motion copy.html"
     },
     {
-      "n": 4601,
-      "label": "#4601",
+      "n": 4600,
+      "label": "#4600",
       "name": "Emirates Illustrations/card asset /reward-card-motion.html",
       "kind": "file",
       "size": "11.2 KB",
@@ -50616,8 +50605,8 @@
       "fspath": "files/Emirates Illustrations/card asset /reward-card-motion.html"
     },
     {
-      "n": 4602,
-      "label": "#4602",
+      "n": 4601,
+      "label": "#4601",
       "name": "Emirates Illustrations/card asset /wallet-card-simple.html",
       "kind": "file",
       "size": "14.4 KB",
@@ -50627,8 +50616,8 @@
       "fspath": "files/Emirates Illustrations/card asset /wallet-card-simple.html"
     },
     {
-      "n": 4603,
-      "label": "#4603",
+      "n": 4602,
+      "label": "#4602",
       "name": "Emirates Illustrations/destination assets (cities)/organization-manifest.tsv",
       "kind": "file",
       "size": "199.4 KB",
@@ -50638,8 +50627,8 @@
       "fspath": "files/Emirates Illustrations/destination assets (cities)/organization-manifest.tsv"
     },
     {
-      "n": 4604,
-      "label": "#4604",
+      "n": 4603,
+      "label": "#4603",
       "name": "Emirates Illustrations/emirates-lady-variations/gallery.html",
       "kind": "file",
       "size": "5.6 KB",
@@ -50649,8 +50638,8 @@
       "fspath": "files/Emirates Illustrations/emirates-lady-variations/gallery.html"
     },
     {
-      "n": 4605,
-      "label": "#4605",
+      "n": 4604,
+      "label": "#4604",
       "name": "Emirates Illustrations/Outbound/Americas/america.zip",
       "kind": "file",
       "size": "31.2 MB",
@@ -50660,8 +50649,8 @@
       "fspath": "files/Emirates Illustrations/Outbound/Americas/america.zip"
     },
     {
-      "n": 4606,
-      "label": "#4606",
+      "n": 4605,
+      "label": "#4605",
       "name": "Emirates Illustrations/widget /generated_travel_images_session.zip",
       "kind": "file",
       "size": "53.3 MB",

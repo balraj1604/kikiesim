@@ -1,7 +1,7 @@
 KIKIESIM DROP — FILE MANIFEST
-Published: 2026-09-03 16:30
+Published: 2026-09-03 16:32
 Page: https://balraj1604.github.io/kikiesim/
-Files: 4606
+Files: 4605
 
 HOW TO USE THIS: every file has a number. When the person speaking says
 "image 7", "number 7", or "file 7", they mean the item numbered 7 below.
@@ -9187,35 +9187,33 @@ Open its URL to view that exact file.
    https://balraj1604.github.io/kikiesim/files/Emirates%20Illustrations/destination%20assets%20%28cities%29/Regional%20Bundles/README.md
 4590. [markdown] FULL-SESSION-TRANSCRIPT-2026-08-31-to-2026-09-03.md  (494.7 KB)
    https://balraj1604.github.io/kikiesim/files/FULL-SESSION-TRANSCRIPT-2026-08-31-to-2026-09-03.md
-4591. [markdown] HANDOVER-2026-09-03.md  (43.5 KB)
-   https://balraj1604.github.io/kikiesim/files/HANDOVER-2026-09-03.md
-4592. [text] app-screen-library-1.0.24-27/manifest.json  (10.4 KB)
+4591. [text] app-screen-library-1.0.24-27/manifest.json  (10.4 KB)
    https://balraj1604.github.io/kikiesim/files/app-screen-library-1.0.24-27/manifest.json
-4593. [text] Emirates Illustrations/3d aseest explore globe /_manifest.csv  (4.1 KB)
+4592. [text] Emirates Illustrations/3d aseest explore globe /_manifest.csv  (4.1 KB)
    https://balraj1604.github.io/kikiesim/files/Emirates%20Illustrations/3d%20aseest%20explore%20globe%20/_manifest.csv
-4594. [text] Emirates Illustrations/_final.json  (21.9 KB)
+4593. [text] Emirates Illustrations/_final.json  (21.9 KB)
    https://balraj1604.github.io/kikiesim/files/Emirates%20Illustrations/_final.json
-4595. [text] Emirates Illustrations/_raw_routes.json  (61.7 KB)
+4594. [text] Emirates Illustrations/_raw_routes.json  (61.7 KB)
    https://balraj1604.github.io/kikiesim/files/Emirates%20Illustrations/_raw_routes.json
-4596. [text] Emirates Illustrations/widget /generated_travel_images_session/manifest.csv  (5.3 KB)
+4595. [text] Emirates Illustrations/widget /generated_travel_images_session/manifest.csv  (5.3 KB)
    https://balraj1604.github.io/kikiesim/files/Emirates%20Illustrations/widget%20/generated_travel_images_session/manifest.csv
-4597. [text] Emirates Illustrations/widget /generated_travel_images_session/README.txt  (2.5 KB)
+4596. [text] Emirates Illustrations/widget /generated_travel_images_session/README.txt  (2.5 KB)
    https://balraj1604.github.io/kikiesim/files/Emirates%20Illustrations/widget%20/generated_travel_images_session/README.txt
-4598. [text] FULL-SESSION-TRANSCRIPT-2026-08-31-to-2026-09-03.json  (612.8 KB)
+4597. [text] FULL-SESSION-TRANSCRIPT-2026-08-31-to-2026-09-03.json  (612.8 KB)
    https://balraj1604.github.io/kikiesim/files/FULL-SESSION-TRANSCRIPT-2026-08-31-to-2026-09-03.json
-4599. [file] app-screen-library-1.0.24-27/gallery.html  (15.5 KB)
+4598. [file] app-screen-library-1.0.24-27/gallery.html  (15.5 KB)
    https://balraj1604.github.io/kikiesim/files/app-screen-library-1.0.24-27/gallery.html
-4600. [file] Emirates Illustrations/card asset /reward-card-motion copy.html  (11.2 KB)
+4599. [file] Emirates Illustrations/card asset /reward-card-motion copy.html  (11.2 KB)
    https://balraj1604.github.io/kikiesim/files/Emirates%20Illustrations/card%20asset%20/reward-card-motion%20copy.html
-4601. [file] Emirates Illustrations/card asset /reward-card-motion.html  (11.2 KB)
+4600. [file] Emirates Illustrations/card asset /reward-card-motion.html  (11.2 KB)
    https://balraj1604.github.io/kikiesim/files/Emirates%20Illustrations/card%20asset%20/reward-card-motion.html
-4602. [file] Emirates Illustrations/card asset /wallet-card-simple.html  (14.4 KB)
+4601. [file] Emirates Illustrations/card asset /wallet-card-simple.html  (14.4 KB)
    https://balraj1604.github.io/kikiesim/files/Emirates%20Illustrations/card%20asset%20/wallet-card-simple.html
-4603. [file] Emirates Illustrations/destination assets (cities)/organization-manifest.tsv  (199.4 KB)
+4602. [file] Emirates Illustrations/destination assets (cities)/organization-manifest.tsv  (199.4 KB)
    https://balraj1604.github.io/kikiesim/files/Emirates%20Illustrations/destination%20assets%20%28cities%29/organization-manifest.tsv
-4604. [file] Emirates Illustrations/emirates-lady-variations/gallery.html  (5.6 KB)
+4603. [file] Emirates Illustrations/emirates-lady-variations/gallery.html  (5.6 KB)
    https://balraj1604.github.io/kikiesim/files/Emirates%20Illustrations/emirates-lady-variations/gallery.html
-4605. [file] Emirates Illustrations/Outbound/Americas/america.zip  (31.2 MB)
+4604. [file] Emirates Illustrations/Outbound/Americas/america.zip  (31.2 MB)
    https://balraj1604.github.io/kikiesim/files/Emirates%20Illustrations/Outbound/Americas/america.zip
-4606. [file] Emirates Illustrations/widget /generated_travel_images_session.zip  (53.3 MB)
+4605. [file] Emirates Illustrations/widget /generated_travel_images_session.zip  (53.3 MB)
    https://balraj1604.github.io/kikiesim/files/Emirates%20Illustrations/widget%20/generated_travel_images_session.zip
