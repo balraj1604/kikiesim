@@ -1,0 +1,3085 @@
+{
+  "totalSchedules": 491,
+  "airportRoutes": 124,
+  "skippedCount": 367,
+  "skippedSample": [
+    {
+      "dest": "ABJ",
+      "reason": "AIRPORT",
+      "hadItin": 1
+    },
+    {
+      "dest": "ULH",
+      "reason": "AIRPORT",
+      "hadItin": 1
+    },
+    {
+      "dest": "EEM",
+      "reason": "TRAIN",
+      "hadItin": 1
+    },
+    {
+      "dest": "ALB",
+      "reason": "AIRPORT",
+      "hadItin": 1
+    },
+    {
+      "dest": "ABQ",
+      "reason": "AIRPORT",
+      "hadItin": 2
+    },
+    {
+      "dest": "ABX",
+      "reason": "AIRPORT",
+      "hadItin": 1
+    },
+    {
+      "dest": "AXD",
+      "reason": "AIRPORT",
+      "hadItin": 1
+    },
+    {
+      "dest": "YJE",
+      "reason": "TRAIN",
+      "hadItin": 2
+    },
+    {
+      "dest": "ASP",
+      "reason": "AIRPORT",
+      "hadItin": 1
+    },
+    {
+      "dest": "ALA",
+      "reason": "AIRPORT",
+      "hadItin": 2
+    },
+    {
+      "dest": "AMA",
+      "reason": "AIRPORT",
+      "hadItin": 1
+    },
+    {
+      "dest": "QXG",
+      "reason": "TRAIN",
+      "hadItin": 2
+    },
+    {
+      "dest": "AYT",
+      "reason": "AIRPORT",
+      "hadItin": 1
+    },
+    {
+      "dest": "TNR",
+      "reason": "AIRPORT",
+      "hadItin": 1
+    },
+    {
+      "dest": "AJU",
+      "reason": "AIRPORT",
+      "hadItin": 4
+    },
+    {
+      "dest": "ACV",
+      "reason": "AIRPORT",
+      "hadItin": 2
+    },
+    {
+      "dest": "ARM",
+      "reason": "AIRPORT",
+      "hadItin": 2
+    },
+    {
+      "dest": "XRZ",
+      "reason": "TRAIN",
+      "hadItin": 1
+    },
+    {
+      "dest": "ASB",
+      "reason": "AIRPORT",
+      "hadItin": 1
+    },
+    {
+      "dest": "ASM",
+      "reason": "AIRPORT",
+      "hadItin": 2
+    },
+    {
+      "dest": "ASU",
+      "reason": "AIRPORT",
+      "hadItin": 2
+    },
+    {
+      "dest": "ATL",
+      "reason": "AIRPORT",
+      "hadItin": 1
+    },
+    {
+      "dest": "AUS",
+      "reason": "AIRPORT",
+      "hadItin": 3
+    },
+    {
+      "dest": "AVV",
+      "reason": "AIRPORT",
+      "hadItin": 2
+    },
+    {
+      "dest": "XZN",
+      "reason": "TRAIN",
+      "hadItin": 1
+    },
+    {
+      "dest": "BGW",
+      "reason": "AIRPORT",
+      "hadItin": 1
+    },
+    {
+      "dest": "GYD",
+      "reason": "AIRPORT",
+      "hadItin": 3
+    },
+    {
+      "dest": "BNK",
+      "reason": "AIRPORT",
+      "hadItin": 1
+    },
+    {
+      "dest": "BWI",
+      "reason": "AIRPORT",
+      "hadItin": 1
+    },
+    {
+      "dest": "YJB",
+      "reason": "AIRPORT",
+      "hadItin": 1
+    },
+    {
+      "dest": "BRI",
+      "reason": "AIRPORT",
+      "hadItin": 3
+    },
+    {
+      "dest": "BSR",
+      "reason": "AIRPORT",
+      "hadItin": 1
+    },
+    {
+      "dest": "BTR",
+      "reason": "AIRPORT",
+      "hadItin": 2
+    },
+    {
+      "dest": "BEG",
+      "reason": "AIRPORT",
+      "hadItin": 2
+    },
+    {
+      "dest": "CNF",
+      "reason": "AIRPORT",
+      "hadItin": 6
+    },
+    {
+      "dest": "CNF",
+      "reason": "AIRPORT",
+      "hadItin": 3
+    },
+    {
+      "dest": "BEL",
+      "reason": "AIRPORT",
+      "hadItin": 2
+    },
+    {
+      "dest": "BHM",
+      "reason": "AIRPORT",
+      "hadItin": 1
+    },
+    {
+      "dest": "BSZ",
+      "reason": "AIRPORT",
+      "hadItin": 1
+    },
+    {
+      "dest": "BLZ",
+      "reason": "AIRPORT",
+      "hadItin": 1
+    }
+  ],
+  "rows": [
+    {
+      "dest": "ACC",
+      "city": "Accra",
+      "country": "Ghana",
+      "countryCode": "GH",
+      "region": "Africa",
+      "nonstops": [
+        {
+          "fn": "0787",
+          "dep": "07:10",
+          "arr": "11:20",
+          "dur": "490",
+          "days": "1234567",
+          "ac": "B777"
+        }
+      ]
+    },
+    {
+      "dest": "ADD",
+      "city": "Addis Ababa",
+      "country": "Ethiopia",
+      "countryCode": "ET",
+      "region": "Africa",
+      "nonstops": [
+        {
+          "fn": "0723",
+          "dep": "10:40",
+          "arr": "13:45",
+          "dur": "245",
+          "days": "123456.",
+          "ac": "B777"
+        },
+        {
+          "fn": "0723",
+          "dep": "10:40",
+          "arr": "13:45",
+          "dur": "245",
+          "days": "......7",
+          "ac": "B777"
+        }
+      ]
+    },
+    {
+      "dest": "ADL",
+      "city": "Adelaide",
+      "country": "Australia",
+      "countryCode": "AU",
+      "region": "Asia and the Pacific",
+      "nonstops": [
+        {
+          "fn": "0440",
+          "dep": "02:05",
+          "arr": "20:05",
+          "dur": "750",
+          "days": "1234567",
+          "ac": "A350"
+        }
+      ]
+    },
+    {
+      "dest": "AMD",
+      "city": "Ahmedabad",
+      "country": "India",
+      "countryCode": "IN",
+      "region": "Asia and the Pacific",
+      "nonstops": [
+        {
+          "fn": "0540",
+          "dep": "03:50",
+          "arr": "08:10",
+          "dur": "170",
+          "days": ".....67",
+          "ac": "A350"
+        },
+        {
+          "fn": "0538",
+          "dep": "22:50",
+          "arr": "03:05",
+          "dur": "165",
+          "days": "1234567",
+          "ac": "A350"
+        }
+      ]
+    },
+    {
+      "dest": "AMM",
+      "city": "Amman",
+      "country": "Jordan",
+      "countryCode": "JO",
+      "region": "The Middle East",
+      "nonstops": [
+        {
+          "fn": "0903",
+          "dep": "13:45",
+          "arr": "16:30",
+          "dur": "225",
+          "days": "1234567",
+          "ac": "A380"
+        }
+      ]
+    },
+    {
+      "dest": "AMS",
+      "city": "Amsterdam",
+      "country": "Netherlands",
+      "countryCode": "NL",
+      "region": "Europe",
+      "nonstops": [
+        {
+          "fn": "0145",
+          "dep": "03:55",
+          "arr": "09:20",
+          "dur": "445",
+          "days": "..3.5.7",
+          "ac": "B777"
+        },
+        {
+          "fn": "0145",
+          "dep": "03:55",
+          "arr": "09:20",
+          "dur": "445",
+          "days": "1......",
+          "ac": "B777"
+        },
+        {
+          "fn": "0147",
+          "dep": "07:50",
+          "arr": "13:15",
+          "dur": "445",
+          "days": "1234567",
+          "ac": "A380"
+        }
+      ]
+    },
+    {
+      "dest": "ATH",
+      "city": "Athens",
+      "country": "Greece",
+      "countryCode": "GR",
+      "region": "Europe",
+      "nonstops": [
+        {
+          "fn": "0209",
+          "dep": "10:50",
+          "arr": "15:00",
+          "dur": "310",
+          "days": "1234567",
+          "ac": "B777"
+        },
+        {
+          "fn": "0103",
+          "dep": "16:15",
+          "arr": "20:25",
+          "dur": "310",
+          "days": "..3.567",
+          "ac": "B777"
+        }
+      ]
+    },
+    {
+      "dest": "AKL",
+      "city": "Auckland",
+      "country": "New Zealand",
+      "countryCode": "NZ",
+      "region": "Asia and the Pacific",
+      "nonstops": [
+        {
+          "fn": "0448",
+          "dep": "10:15",
+          "arr": "10:05",
+          "dur": "950",
+          "days": "1234567",
+          "ac": "A380"
+        }
+      ]
+    },
+    {
+      "dest": "BAH",
+      "city": "Bahrain",
+      "country": "Bahrain",
+      "countryCode": "BH",
+      "region": "The Middle East",
+      "nonstops": [
+        {
+          "fn": "0837",
+          "dep": "08:30",
+          "arr": "08:45",
+          "dur": "75",
+          "days": "1234567",
+          "ac": "A350"
+        },
+        {
+          "fn": "0839",
+          "dep": "16:00",
+          "arr": "16:20",
+          "dur": "80",
+          "days": "12..5..",
+          "ac": "A350"
+        },
+        {
+          "fn": "0839",
+          "dep": "16:00",
+          "arr": "16:20",
+          "dur": "80",
+          "days": "...4.67",
+          "ac": "B777"
+        }
+      ]
+    },
+    {
+      "dest": "DPS",
+      "city": "Bali",
+      "country": "Indonesia",
+      "countryCode": "ID",
+      "region": "Asia and the Pacific",
+      "nonstops": [
+        {
+          "fn": "0368",
+          "dep": "03:10",
+          "arr": "16:35",
+          "dur": "565",
+          "days": "1234567",
+          "ac": "A380"
+        },
+        {
+          "fn": "0398",
+          "dep": "09:10",
+          "arr": "22:25",
+          "dur": "555",
+          "days": "1234567",
+          "ac": "A380"
+        }
+      ]
+    },
+    {
+      "dest": "BKK",
+      "city": "Bangkok",
+      "country": "Thailand",
+      "countryCode": "TH",
+      "region": "Asia and the Pacific",
+      "nonstops": [
+        {
+          "fn": "0384",
+          "dep": "02:50",
+          "arr": "12:30",
+          "dur": "400",
+          "days": "1234567",
+          "ac": "A380"
+        },
+        {
+          "fn": "0370",
+          "dep": "09:00",
+          "arr": "18:25",
+          "dur": "385",
+          "days": "1234567",
+          "ac": "B777"
+        },
+        {
+          "fn": "0372",
+          "dep": "09:40",
+          "arr": "19:25",
+          "dur": "405",
+          "days": "1234567",
+          "ac": "A380"
+        },
+        {
+          "fn": "0374",
+          "dep": "22:30",
+          "arr": "08:00",
+          "dur": "390",
+          "days": "12.....",
+          "ac": "B777"
+        },
+        {
+          "fn": "0374",
+          "dep": "22:30",
+          "arr": "08:00",
+          "dur": "390",
+          "days": "..34567",
+          "ac": "B777"
+        }
+      ]
+    },
+    {
+      "dest": "BCN",
+      "city": "Barcelona",
+      "country": "Spain",
+      "countryCode": "ES",
+      "region": "Europe",
+      "nonstops": [
+        {
+          "fn": "0255",
+          "dep": "02:55",
+          "arr": "08:35",
+          "dur": "460",
+          "days": "1234567",
+          "ac": "B777"
+        },
+        {
+          "fn": "0185",
+          "dep": "07:50",
+          "arr": "13:25",
+          "dur": "455",
+          "days": "1234567",
+          "ac": "A380"
+        }
+      ]
+    },
+    {
+      "dest": "PEK",
+      "city": "Beijing",
+      "country": "China",
+      "countryCode": "CN",
+      "region": "Asia and the Pacific",
+      "nonstops": [
+        {
+          "fn": "0306",
+          "dep": "03:50",
+          "arr": "15:25",
+          "dur": "455",
+          "days": "1234567",
+          "ac": "A380"
+        }
+      ]
+    },
+    {
+      "dest": "BEY",
+      "city": "Beirut",
+      "country": "Lebanon",
+      "countryCode": "LB",
+      "region": "The Middle East",
+      "nonstops": [
+        {
+          "fn": "0957",
+          "dep": "09:25",
+          "arr": "12:15",
+          "dur": "230",
+          "days": "1234.67",
+          "ac": "B777"
+        }
+      ]
+    },
+    {
+      "dest": "BLR",
+      "city": "Bengaluru (Bangalore)",
+      "country": "India",
+      "countryCode": "IN",
+      "region": "Asia and the Pacific",
+      "nonstops": [
+        {
+          "fn": "0564",
+          "dep": "03:20",
+          "arr": "08:50",
+          "dur": "240",
+          "days": "1234567",
+          "ac": "B777"
+        },
+        {
+          "fn": "0566",
+          "dep": "13:45",
+          "arr": "19:20",
+          "dur": "245",
+          "days": "1234567",
+          "ac": "B777"
+        },
+        {
+          "fn": "0568",
+          "dep": "21:15",
+          "arr": "02:50",
+          "dur": "245",
+          "days": "1234567",
+          "ac": "A380"
+        }
+      ]
+    },
+    {
+      "dest": "BHX",
+      "city": "Birmingham",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "region": "Europe",
+      "nonstops": [
+        {
+          "fn": "0039",
+          "dep": "07:30",
+          "arr": "12:30",
+          "dur": "480",
+          "days": ".234567",
+          "ac": "A380"
+        },
+        {
+          "fn": "0039",
+          "dep": "07:30",
+          "arr": "12:30",
+          "dur": "480",
+          "days": "1......",
+          "ac": "A380"
+        }
+      ]
+    },
+    {
+      "dest": "BLQ",
+      "city": "Bologna",
+      "country": "Italy",
+      "countryCode": "IT",
+      "region": "Europe",
+      "nonstops": [
+        {
+          "fn": "0093",
+          "dep": "08:55",
+          "arr": "13:40",
+          "dur": "405",
+          "days": ".2.4567",
+          "ac": "A350"
+        }
+      ]
+    },
+    {
+      "dest": "BOS",
+      "city": "Boston",
+      "country": "United States",
+      "countryCode": "US",
+      "region": "The Americas",
+      "nonstops": [
+        {
+          "fn": "0237",
+          "dep": "08:15",
+          "arr": "14:10",
+          "dur": "835",
+          "days": "1234567",
+          "ac": "B777"
+        }
+      ]
+    },
+    {
+      "dest": "BNE",
+      "city": "Brisbane",
+      "country": "Australia",
+      "countryCode": "AU",
+      "region": "Asia and the Pacific",
+      "nonstops": [
+        {
+          "fn": "0434",
+          "dep": "10:35",
+          "arr": "06:25",
+          "dur": "830",
+          "days": "1234567",
+          "ac": "A380"
+        }
+      ]
+    },
+    {
+      "dest": "BRU",
+      "city": "Brussels",
+      "country": "Belgium",
+      "countryCode": "BE",
+      "region": "Europe",
+      "nonstops": [
+        {
+          "fn": "0183",
+          "dep": "07:50",
+          "arr": "13:20",
+          "dur": "450",
+          "days": "1234567",
+          "ac": "B777"
+        },
+        {
+          "fn": "0181",
+          "dep": "14:00",
+          "arr": "19:30",
+          "dur": "450",
+          "days": "123456.",
+          "ac": "B777"
+        }
+      ]
+    },
+    {
+      "dest": "BUD",
+      "city": "Budapest",
+      "country": "Hungary",
+      "countryCode": "HU",
+      "region": "Europe",
+      "nonstops": [
+        {
+          "fn": "0111",
+          "dep": "09:30",
+          "arr": "13:55",
+          "dur": "385",
+          "days": "123.567",
+          "ac": "B777"
+        }
+      ]
+    },
+    {
+      "dest": "CAI",
+      "city": "Cairo",
+      "country": "Egypt",
+      "countryCode": "EG",
+      "region": "Africa",
+      "nonstops": [
+        {
+          "fn": "0929",
+          "dep": "04:00",
+          "arr": "06:50",
+          "dur": "230",
+          "days": "1.34567",
+          "ac": "B777"
+        },
+        {
+          "fn": "0927",
+          "dep": "08:15",
+          "arr": "11:05",
+          "dur": "230",
+          "days": "1234567",
+          "ac": "A380"
+        },
+        {
+          "fn": "0921",
+          "dep": "12:00",
+          "arr": "14:50",
+          "dur": "230",
+          "days": "1234567",
+          "ac": "B777"
+        },
+        {
+          "fn": "0923",
+          "dep": "15:15",
+          "arr": "18:05",
+          "dur": "230",
+          "days": "1234567",
+          "ac": "A380"
+        },
+        {
+          "fn": "0925",
+          "dep": "22:00",
+          "arr": "00:50",
+          "dur": "230",
+          "days": "1234567",
+          "ac": "A380"
+        }
+      ]
+    },
+    {
+      "dest": "CPT",
+      "city": "Cape Town",
+      "country": "South Africa",
+      "countryCode": "ZA",
+      "region": "Africa",
+      "nonstops": [
+        {
+          "fn": "0772",
+          "dep": "03:45",
+          "arr": "11:30",
+          "dur": "585",
+          "days": "1234567",
+          "ac": "B777"
+        },
+        {
+          "fn": "0770",
+          "dep": "09:10",
+          "arr": "16:40",
+          "dur": "570",
+          "days": "1234567",
+          "ac": "B777"
+        }
+      ]
+    },
+    {
+      "dest": "CMN",
+      "city": "Casablanca",
+      "country": "Morocco",
+      "countryCode": "MA",
+      "region": "Africa",
+      "nonstops": [
+        {
+          "fn": "0751",
+          "dep": "07:25",
+          "arr": "12:40",
+          "dur": "495",
+          "days": "1234567",
+          "ac": "A380"
+        }
+      ]
+    },
+    {
+      "dest": "CEB",
+      "city": "Cebu",
+      "country": "Philippines",
+      "countryCode": "PH",
+      "region": "Asia and the Pacific",
+      "nonstops": [
+        {
+          "fn": "0338",
+          "dep": "02:55",
+          "arr": "16:20",
+          "dur": "565",
+          "days": "1234567",
+          "ac": "B777"
+        }
+      ]
+    },
+    {
+      "dest": "MAA",
+      "city": "Chennai (Madras)",
+      "country": "India",
+      "countryCode": "IN",
+      "region": "Asia and the Pacific",
+      "nonstops": [
+        {
+          "fn": "0544",
+          "dep": "02:30",
+          "arr": "08:05",
+          "dur": "245",
+          "days": "1234567",
+          "ac": "B777"
+        },
+        {
+          "fn": "0546",
+          "dep": "14:50",
+          "arr": "20:30",
+          "dur": "250",
+          "days": "1234567",
+          "ac": "B777"
+        },
+        {
+          "fn": "0542",
+          "dep": "21:00",
+          "arr": "02:30",
+          "dur": "240",
+          "days": "1234567",
+          "ac": "B777"
+        }
+      ]
+    },
+    {
+      "dest": "ORD",
+      "city": "Chicago",
+      "country": "United States",
+      "countryCode": "US",
+      "region": "The Americas",
+      "nonstops": [
+        {
+          "fn": "0235",
+          "dep": "09:35",
+          "arr": "15:45",
+          "dur": "910",
+          "days": "1234567",
+          "ac": "B777"
+        }
+      ]
+    },
+    {
+      "dest": "CMB",
+      "city": "Colombo",
+      "country": "Sri Lanka",
+      "countryCode": "LK",
+      "region": "Asia and the Pacific",
+      "nonstops": [
+        {
+          "fn": "0650",
+          "dep": "02:30",
+          "arr": "08:30",
+          "dur": "270",
+          "days": "1234567",
+          "ac": "B777"
+        },
+        {
+          "fn": "0654",
+          "dep": "10:45",
+          "arr": "16:50",
+          "dur": "275",
+          "days": "12.4567",
+          "ac": "A350"
+        },
+        {
+          "fn": "0648",
+          "dep": "16:10",
+          "arr": "22:10",
+          "dur": "270",
+          "days": "12345.7",
+          "ac": "B777"
+        }
+      ]
+    },
+    {
+      "dest": "CKY",
+      "city": "Conakry",
+      "country": "Guinea",
+      "countryCode": "GN",
+      "region": "Africa",
+      "nonstops": [
+        {
+          "fn": "0795",
+          "dep": "07:50",
+          "arr": "13:05",
+          "dur": "555",
+          "days": "....5.7",
+          "ac": "B777"
+        },
+        {
+          "fn": "0797",
+          "dep": "07:50",
+          "arr": "13:05",
+          "dur": "555",
+          "days": ".....6.",
+          "ac": "B777"
+        }
+      ]
+    },
+    {
+      "dest": "CPH",
+      "city": "Copenhagen",
+      "country": "Denmark",
+      "countryCode": "DK",
+      "region": "Europe",
+      "nonstops": [
+        {
+          "fn": "0151",
+          "dep": "08:05",
+          "arr": "13:15",
+          "dur": "430",
+          "days": "1234567",
+          "ac": "B777"
+        }
+      ]
+    },
+    {
+      "dest": "DFW",
+      "city": "Dallas",
+      "country": "United States",
+      "countryCode": "US",
+      "region": "The Americas",
+      "nonstops": [
+        {
+          "fn": "0221",
+          "dep": "02:10",
+          "arr": "09:40",
+          "dur": "990",
+          "days": "1234567",
+          "ac": "B777"
+        }
+      ]
+    },
+    {
+      "dest": "DMM",
+      "city": "Dammam",
+      "country": "Saudi Arabia",
+      "countryCode": "SA",
+      "region": "The Middle East",
+      "nonstops": [
+        {
+          "fn": "0823",
+          "dep": "02:20",
+          "arr": "02:40",
+          "dur": "80",
+          "days": "1234567",
+          "ac": "A350"
+        },
+        {
+          "fn": "0827",
+          "dep": "07:40",
+          "arr": "08:05",
+          "dur": "85",
+          "days": "1234567",
+          "ac": "A350"
+        },
+        {
+          "fn": "0821",
+          "dep": "20:50",
+          "arr": "21:20",
+          "dur": "90",
+          "days": "......7",
+          "ac": "A350"
+        },
+        {
+          "fn": "0821",
+          "dep": "20:50",
+          "arr": "21:20",
+          "dur": "90",
+          "days": "1......",
+          "ac": "B777"
+        }
+      ]
+    },
+    {
+      "dest": "DAR",
+      "city": "Dar Es Salaam",
+      "country": "Tanzania",
+      "countryCode": "TZ",
+      "region": "Africa",
+      "nonstops": [
+        {
+          "fn": "0725",
+          "dep": "09:25",
+          "arr": "13:50",
+          "dur": "325",
+          "days": "1.34567",
+          "ac": "B777"
+        }
+      ]
+    },
+    {
+      "dest": "DEL",
+      "city": "New Delhi",
+      "country": "India",
+      "countryCode": "IN",
+      "region": "Asia and the Pacific",
+      "nonstops": [
+        {
+          "fn": "0510",
+          "dep": "03:55",
+          "arr": "09:05",
+          "dur": "220",
+          "days": "1234567",
+          "ac": "B777"
+        },
+        {
+          "fn": "0516",
+          "dep": "09:50",
+          "arr": "14:45",
+          "dur": "205",
+          "days": "1234567",
+          "ac": "B777"
+        },
+        {
+          "fn": "0514",
+          "dep": "15:25",
+          "arr": "20:25",
+          "dur": "210",
+          "days": "1234567",
+          "ac": "B777"
+        },
+        {
+          "fn": "0512",
+          "dep": "21:30",
+          "arr": "02:25",
+          "dur": "205",
+          "days": "1234567",
+          "ac": "B777"
+        }
+      ]
+    },
+    {
+      "dest": "DAC",
+      "city": "Dhaka",
+      "country": "Bangladesh",
+      "countryCode": "BD",
+      "region": "Asia and the Pacific",
+      "nonstops": [
+        {
+          "fn": "0582",
+          "dep": "02:00",
+          "arr": "08:35",
+          "dur": "275",
+          "days": "1234567",
+          "ac": "B777"
+        },
+        {
+          "fn": "0586",
+          "dep": "10:35",
+          "arr": "17:25",
+          "dur": "290",
+          "days": "1234567",
+          "ac": "B777"
+        },
+        {
+          "fn": "0584",
+          "dep": "16:45",
+          "arr": "23:20",
+          "dur": "275",
+          "days": "12...6.",
+          "ac": "B777"
+        },
+        {
+          "fn": "0584",
+          "dep": "16:45",
+          "arr": "23:20",
+          "dur": "275",
+          "days": "..34567",
+          "ac": "B777"
+        }
+      ]
+    },
+    {
+      "dest": "DUB",
+      "city": "Dublin",
+      "country": "Ireland",
+      "countryCode": "IE",
+      "region": "Europe",
+      "nonstops": [
+        {
+          "fn": "0161",
+          "dep": "07:00",
+          "arr": "12:20",
+          "dur": "500",
+          "days": "1234567",
+          "ac": "B777"
+        },
+        {
+          "fn": "0163",
+          "dep": "14:50",
+          "arr": "20:10",
+          "dur": "500",
+          "days": "1234567",
+          "ac": "A350"
+        }
+      ]
+    },
+    {
+      "dest": "DUR",
+      "city": "Durban",
+      "country": "South Africa",
+      "countryCode": "ZA",
+      "region": "Africa",
+      "nonstops": [
+        {
+          "fn": "0775",
+          "dep": "10:15",
+          "arr": "16:35",
+          "dur": "500",
+          "days": "1234567",
+          "ac": "B777"
+        }
+      ]
+    },
+    {
+      "dest": "DUS",
+      "city": "Düsseldorf",
+      "country": "Germany",
+      "countryCode": "DE",
+      "region": "Europe",
+      "nonstops": [
+        {
+          "fn": "0055",
+          "dep": "08:10",
+          "arr": "13:25",
+          "dur": "435",
+          "days": "1234.67",
+          "ac": "B777"
+        }
+      ]
+    },
+    {
+      "dest": "EDI",
+      "city": "Edinburgh",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "region": "Europe",
+      "nonstops": [
+        {
+          "fn": "0023",
+          "dep": "14:50",
+          "arr": "20:05",
+          "dur": "495",
+          "days": "1234567",
+          "ac": "A350"
+        }
+      ]
+    },
+    {
+      "dest": "EBB",
+      "city": "Entebbe",
+      "country": "Uganda",
+      "countryCode": "UG",
+      "region": "Africa",
+      "nonstops": [
+        {
+          "fn": "0729",
+          "dep": "09:55",
+          "arr": "14:25",
+          "dur": "330",
+          "days": ".2.4.6.",
+          "ac": "A350"
+        }
+      ]
+    },
+    {
+      "dest": "FRA",
+      "city": "Frankfurt am Main",
+      "country": "Germany",
+      "countryCode": "DE",
+      "region": "Europe",
+      "nonstops": [
+        {
+          "fn": "0043",
+          "dep": "03:45",
+          "arr": "08:50",
+          "dur": "425",
+          "days": "1234567",
+          "ac": "A350"
+        },
+        {
+          "fn": "0045",
+          "dep": "08:10",
+          "arr": "13:15",
+          "dur": "425",
+          "days": "1234.67",
+          "ac": "B777"
+        },
+        {
+          "fn": "0047",
+          "dep": "15:00",
+          "arr": "20:05",
+          "dur": "425",
+          "days": "1234567",
+          "ac": "B777"
+        }
+      ]
+    },
+    {
+      "dest": "GVA",
+      "city": "Geneva",
+      "country": "Switzerland",
+      "countryCode": "CH",
+      "region": "Europe",
+      "nonstops": [
+        {
+          "fn": "0089",
+          "dep": "08:00",
+          "arr": "13:15",
+          "dur": "435",
+          "days": "1234567",
+          "ac": "B777"
+        },
+        {
+          "fn": "0083",
+          "dep": "14:10",
+          "arr": "19:20",
+          "dur": "430",
+          "days": "..34567",
+          "ac": "B777"
+        }
+      ]
+    },
+    {
+      "dest": "GLA",
+      "city": "Glasgow",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "region": "Europe",
+      "nonstops": [
+        {
+          "fn": "0027",
+          "dep": "07:15",
+          "arr": "12:40",
+          "dur": "505",
+          "days": "123.567",
+          "ac": "B777"
+        }
+      ]
+    },
+    {
+      "dest": "CAN",
+      "city": "Guangzhou",
+      "country": "China",
+      "countryCode": "CN",
+      "region": "Asia and the Pacific",
+      "nonstops": [
+        {
+          "fn": "0362",
+          "dep": "10:15",
+          "arr": "22:00",
+          "dur": "465",
+          "days": "1234567",
+          "ac": "A380"
+        }
+      ]
+    },
+    {
+      "dest": "HAM",
+      "city": "Hamburg",
+      "country": "Germany",
+      "countryCode": "DE",
+      "region": "Europe",
+      "nonstops": [
+        {
+          "fn": "0059",
+          "dep": "08:20",
+          "arr": "13:35",
+          "dur": "435",
+          "days": "1234567",
+          "ac": "B777"
+        }
+      ]
+    },
+    {
+      "dest": "HGH",
+      "city": "Hangzhou",
+      "country": "China",
+      "countryCode": "CN",
+      "region": "Asia and the Pacific",
+      "nonstops": [
+        {
+          "fn": "0310",
+          "dep": "03:25",
+          "arr": "15:55",
+          "dur": "510",
+          "days": "1234567",
+          "ac": "A350"
+        }
+      ]
+    },
+    {
+      "dest": "HAN",
+      "city": "Hanoi",
+      "country": "Vietnam",
+      "countryCode": "VN",
+      "region": "Asia and the Pacific",
+      "nonstops": [
+        {
+          "fn": "0394",
+          "dep": "03:30",
+          "arr": "13:15",
+          "dur": "405",
+          "days": "1234567",
+          "ac": "A350"
+        }
+      ]
+    },
+    {
+      "dest": "SGN",
+      "city": "Ho Chi Minh City",
+      "country": "Vietnam",
+      "countryCode": "VN",
+      "region": "Asia and the Pacific",
+      "nonstops": [
+        {
+          "fn": "0392",
+          "dep": "09:35",
+          "arr": "20:00",
+          "dur": "445",
+          "days": "1234567",
+          "ac": "A350"
+        }
+      ]
+    },
+    {
+      "dest": "HKG",
+      "city": "Hong Kong",
+      "country": "Hong Kong, China",
+      "countryCode": "HK",
+      "region": "Asia and the Pacific",
+      "nonstops": [
+        {
+          "fn": "0382",
+          "dep": "03:15",
+          "arr": "15:25",
+          "dur": "490",
+          "days": "1234567",
+          "ac": "B777"
+        },
+        {
+          "fn": "0380",
+          "dep": "10:00",
+          "arr": "22:05",
+          "dur": "485",
+          "days": "1234567",
+          "ac": "A380"
+        }
+      ]
+    },
+    {
+      "dest": "IAH",
+      "city": "Houston",
+      "country": "United States",
+      "countryCode": "US",
+      "region": "The Americas",
+      "nonstops": [
+        {
+          "fn": "0211",
+          "dep": "09:15",
+          "arr": "16:50",
+          "dur": "995",
+          "days": "12.4567",
+          "ac": "A380"
+        }
+      ]
+    },
+    {
+      "dest": "HYD",
+      "city": "Hyderabad",
+      "country": "India",
+      "countryCode": "IN",
+      "region": "Asia and the Pacific",
+      "nonstops": [
+        {
+          "fn": "0526",
+          "dep": "03:10",
+          "arr": "08:25",
+          "dur": "225",
+          "days": "1234567",
+          "ac": "B777"
+        },
+        {
+          "fn": "0528",
+          "dep": "15:00",
+          "arr": "20:10",
+          "dur": "220",
+          "days": "1234567",
+          "ac": "B777"
+        },
+        {
+          "fn": "0524",
+          "dep": "21:50",
+          "arr": "03:05",
+          "dur": "225",
+          "days": "1234567",
+          "ac": "B777"
+        }
+      ]
+    },
+    {
+      "dest": "ISB",
+      "city": "Islamabad",
+      "country": "Pakistan",
+      "countryCode": "PK",
+      "region": "Asia and the Pacific",
+      "nonstops": [
+        {
+          "fn": "0612",
+          "dep": "03:20",
+          "arr": "07:30",
+          "dur": "190",
+          "days": "123456.",
+          "ac": "B777"
+        },
+        {
+          "fn": "0614",
+          "dep": "21:05",
+          "arr": "01:15",
+          "dur": "190",
+          "days": "1.3.56.",
+          "ac": "B777"
+        }
+      ]
+    },
+    {
+      "dest": "IST",
+      "city": "Istanbul",
+      "country": "Türkiye",
+      "countryCode": "TR",
+      "region": "Europe",
+      "nonstops": [
+        {
+          "fn": "0123",
+          "dep": "10:15",
+          "arr": "14:25",
+          "dur": "310",
+          "days": "1234567",
+          "ac": "A380"
+        },
+        {
+          "fn": "0121",
+          "dep": "13:55",
+          "arr": "17:55",
+          "dur": "300",
+          "days": "1.34..7",
+          "ac": "B777"
+        },
+        {
+          "fn": "0117",
+          "dep": "17:25",
+          "arr": "21:35",
+          "dur": "310",
+          "days": "1234567",
+          "ac": "A350"
+        }
+      ]
+    },
+    {
+      "dest": "CGK",
+      "city": "Jakarta",
+      "country": "Indonesia",
+      "countryCode": "ID",
+      "region": "Asia and the Pacific",
+      "nonstops": [
+        {
+          "fn": "0356",
+          "dep": "04:05",
+          "arr": "15:40",
+          "dur": "515",
+          "days": "1234567",
+          "ac": "B777"
+        },
+        {
+          "fn": "0358",
+          "dep": "10:50",
+          "arr": "22:25",
+          "dur": "515",
+          "days": "1234567",
+          "ac": "B777"
+        }
+      ]
+    },
+    {
+      "dest": "JED",
+      "city": "Jeddah",
+      "country": "Saudi Arabia",
+      "countryCode": "SA",
+      "region": "The Middle East",
+      "nonstops": [
+        {
+          "fn": "0801",
+          "dep": "00:10",
+          "arr": "02:05",
+          "dur": "175",
+          "days": "12.4..7",
+          "ac": "B777"
+        },
+        {
+          "fn": "0805",
+          "dep": "06:55",
+          "arr": "08:45",
+          "dur": "170",
+          "days": "1234567",
+          "ac": "A380"
+        },
+        {
+          "fn": "0803",
+          "dep": "15:45",
+          "arr": "17:45",
+          "dur": "180",
+          "days": "1234567",
+          "ac": "A380"
+        }
+      ]
+    },
+    {
+      "dest": "JNB",
+      "city": "Johannesburg",
+      "country": "South Africa",
+      "countryCode": "ZA",
+      "region": "Africa",
+      "nonstops": [
+        {
+          "fn": "0761",
+          "dep": "04:05",
+          "arr": "10:15",
+          "dur": "490",
+          "days": "1234567",
+          "ac": "B777"
+        },
+        {
+          "fn": "0763",
+          "dep": "09:55",
+          "arr": "16:15",
+          "dur": "500",
+          "days": "1234567",
+          "ac": "A380"
+        },
+        {
+          "fn": "0765",
+          "dep": "14:25",
+          "arr": "20:35",
+          "dur": "490",
+          "days": "1234567",
+          "ac": "B777"
+        }
+      ]
+    },
+    {
+      "dest": "KHI",
+      "city": "Karachi",
+      "country": "Pakistan",
+      "countryCode": "PK",
+      "region": "Asia and the Pacific",
+      "nonstops": [
+        {
+          "fn": "0600",
+          "dep": "07:40",
+          "arr": "10:45",
+          "dur": "125",
+          "days": "1234567",
+          "ac": "B777"
+        }
+      ]
+    },
+    {
+      "dest": "KHI",
+      "city": "Karachi",
+      "country": "Pakistan",
+      "countryCode": "PK",
+      "region": "Asia and the Pacific",
+      "nonstops": [
+        {
+          "fn": "0602",
+          "dep": "18:00",
+          "arr": "21:05",
+          "dur": "125",
+          "days": "1234567",
+          "ac": "B777"
+        }
+      ]
+    },
+    {
+      "dest": "COK",
+      "city": "Kochi (Cochin)",
+      "country": "India",
+      "countryCode": "IN",
+      "region": "Asia and the Pacific",
+      "nonstops": [
+        {
+          "fn": "0530",
+          "dep": "03:20",
+          "arr": "08:55",
+          "dur": "245",
+          "days": "123.56.",
+          "ac": "B777"
+        },
+        {
+          "fn": "0532",
+          "dep": "21:25",
+          "arr": "02:55",
+          "dur": "240",
+          "days": "1234567",
+          "ac": "B777"
+        }
+      ]
+    },
+    {
+      "dest": "CCU",
+      "city": "Kolkata (Calcutta)",
+      "country": "India",
+      "countryCode": "IN",
+      "region": "Asia and the Pacific",
+      "nonstops": [
+        {
+          "fn": "0570",
+          "dep": "02:05",
+          "arr": "08:10",
+          "dur": "275",
+          "days": "1234567",
+          "ac": "B777"
+        },
+        {
+          "fn": "0572",
+          "dep": "13:05",
+          "arr": "19:15",
+          "dur": "280",
+          "days": ".....67",
+          "ac": "B777"
+        }
+      ]
+    },
+    {
+      "dest": "KUL",
+      "city": "Kuala Lumpur",
+      "country": "Malaysia",
+      "countryCode": "MY",
+      "region": "Asia and the Pacific",
+      "nonstops": [
+        {
+          "fn": "0346",
+          "dep": "03:10",
+          "arr": "14:25",
+          "dur": "435",
+          "days": "1234567",
+          "ac": "A380"
+        },
+        {
+          "fn": "0342",
+          "dep": "10:25",
+          "arr": "21:50",
+          "dur": "445",
+          "days": "1234567",
+          "ac": "B777"
+        }
+      ]
+    },
+    {
+      "dest": "KWI",
+      "city": "Kuwait City",
+      "country": "Kuwait",
+      "countryCode": "KW",
+      "region": "The Middle East",
+      "nonstops": [
+        {
+          "fn": "0857",
+          "dep": "14:55",
+          "arr": "15:45",
+          "dur": "110",
+          "days": "123.567",
+          "ac": "B777"
+        }
+      ]
+    },
+    {
+      "dest": "LOS",
+      "city": "Lagos",
+      "country": "Nigeria",
+      "countryCode": "NG",
+      "region": "Africa",
+      "nonstops": [
+        {
+          "fn": "0783",
+          "dep": "10:00",
+          "arr": "15:35",
+          "dur": "515",
+          "days": "1234567",
+          "ac": "B777"
+        }
+      ]
+    },
+    {
+      "dest": "LHE",
+      "city": "Lahore",
+      "country": "Pakistan",
+      "countryCode": "PK",
+      "region": "Asia and the Pacific",
+      "nonstops": [
+        {
+          "fn": "0624",
+          "dep": "03:10",
+          "arr": "07:20",
+          "dur": "190",
+          "days": "1.3.56.",
+          "ac": "B777"
+        },
+        {
+          "fn": "0622",
+          "dep": "21:40",
+          "arr": "01:45",
+          "dur": "185",
+          "days": "1234.67",
+          "ac": "B777"
+        }
+      ]
+    },
+    {
+      "dest": "LCA",
+      "city": "Larnaca",
+      "country": "Cyprus",
+      "countryCode": "CY",
+      "region": "Europe",
+      "nonstops": [
+        {
+          "fn": "0109",
+          "dep": "07:25",
+          "arr": "10:40",
+          "dur": "255",
+          "days": "1234567",
+          "ac": "B777"
+        }
+      ]
+    },
+    {
+      "dest": "LIS",
+      "city": "Lisbon",
+      "country": "Portugal",
+      "countryCode": "PT",
+      "region": "Europe",
+      "nonstops": [
+        {
+          "fn": "0191",
+          "dep": "07:25",
+          "arr": "12:35",
+          "dur": "490",
+          "days": "1234567",
+          "ac": "B777"
+        },
+        {
+          "fn": "0193",
+          "dep": "14:00",
+          "arr": "19:40",
+          "dur": "520",
+          "days": "1234567",
+          "ac": "B777"
+        }
+      ]
+    },
+    {
+      "dest": "LGW",
+      "city": "London",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "region": "Europe",
+      "nonstops": [
+        {
+          "fn": "0011",
+          "dep": "02:35",
+          "arr": "07:20",
+          "dur": "465",
+          "days": "1234567",
+          "ac": "A350"
+        },
+        {
+          "fn": "0015",
+          "dep": "07:50",
+          "arr": "12:35",
+          "dur": "465",
+          "days": "1234567",
+          "ac": "B777"
+        },
+        {
+          "fn": "0009",
+          "dep": "15:00",
+          "arr": "19:45",
+          "dur": "465",
+          "days": "1234567",
+          "ac": "A350"
+        }
+      ]
+    },
+    {
+      "dest": "LHR",
+      "city": "London",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "region": "Europe",
+      "nonstops": [
+        {
+          "fn": "0007",
+          "dep": "02:15",
+          "arr": "07:05",
+          "dur": "470",
+          "days": "1234567",
+          "ac": "A380"
+        },
+        {
+          "fn": "0001",
+          "dep": "07:35",
+          "arr": "12:25",
+          "dur": "470",
+          "days": "1234567",
+          "ac": "A380"
+        },
+        {
+          "fn": "0029",
+          "dep": "09:35",
+          "arr": "14:25",
+          "dur": "470",
+          "days": "123..67",
+          "ac": "B777"
+        },
+        {
+          "fn": "0003",
+          "dep": "13:50",
+          "arr": "18:40",
+          "dur": "470",
+          "days": "1234567",
+          "ac": "A380"
+        },
+        {
+          "fn": "0005",
+          "dep": "15:25",
+          "arr": "20:15",
+          "dur": "470",
+          "days": "1234567",
+          "ac": "A380"
+        }
+      ]
+    },
+    {
+      "dest": "STN",
+      "city": "London",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "region": "Europe",
+      "nonstops": [
+        {
+          "fn": "0065",
+          "dep": "08:10",
+          "arr": "12:55",
+          "dur": "465",
+          "days": "1234567",
+          "ac": "B777"
+        }
+      ]
+    },
+    {
+      "dest": "LAX",
+      "city": "Los Angeles",
+      "country": "United States",
+      "countryCode": "US",
+      "region": "The Americas",
+      "nonstops": [
+        {
+          "fn": "0215",
+          "dep": "08:10",
+          "arr": "14:15",
+          "dur": "1025",
+          "days": "1234567",
+          "ac": "A380"
+        }
+      ]
+    },
+    {
+      "dest": "NBJ",
+      "city": "Luanda",
+      "country": "Angola",
+      "countryCode": "AO",
+      "region": "Africa",
+      "nonstops": [
+        {
+          "fn": "0793",
+          "dep": "09:45",
+          "arr": "14:30",
+          "dur": "465",
+          "days": ".2.4..7",
+          "ac": "B777"
+        }
+      ]
+    },
+    {
+      "dest": "LUN",
+      "city": "Lusaka",
+      "country": "Zambia",
+      "countryCode": "ZM",
+      "region": "Africa",
+      "nonstops": [
+        {
+          "fn": "0713",
+          "dep": "09:25",
+          "arr": "14:35",
+          "dur": "430",
+          "days": "1234567",
+          "ac": "B777"
+        }
+      ]
+    },
+    {
+      "dest": "LYS",
+      "city": "Lyon",
+      "country": "France",
+      "countryCode": "FR",
+      "region": "Europe",
+      "nonstops": [
+        {
+          "fn": "0081",
+          "dep": "08:40",
+          "arr": "13:50",
+          "dur": "430",
+          "days": "1234567",
+          "ac": "A350"
+        }
+      ]
+    },
+    {
+      "dest": "MAD",
+      "city": "Madrid",
+      "country": "Spain",
+      "countryCode": "ES",
+      "region": "Europe",
+      "nonstops": [
+        {
+          "fn": "0141",
+          "dep": "07:30",
+          "arr": "13:30",
+          "dur": "480",
+          "days": "1234567",
+          "ac": "A380"
+        },
+        {
+          "fn": "0143",
+          "dep": "14:20",
+          "arr": "20:20",
+          "dur": "480",
+          "days": "1234567",
+          "ac": "A350"
+        }
+      ]
+    },
+    {
+      "dest": "SEZ",
+      "city": "Mahe",
+      "country": "Seychelles",
+      "countryCode": "SC",
+      "region": "Asia and the Pacific",
+      "nonstops": [
+        {
+          "fn": "0705",
+          "dep": "02:15",
+          "arr": "06:50",
+          "dur": "275",
+          "days": "1234567",
+          "ac": "B777"
+        },
+        {
+          "fn": "0707",
+          "dep": "08:55",
+          "arr": "13:35",
+          "dur": "280",
+          "days": "..3.5.7",
+          "ac": "B777"
+        }
+      ]
+    },
+    {
+      "dest": "MLE",
+      "city": "Malé",
+      "country": "Maldives",
+      "countryCode": "MV",
+      "region": "Asia and the Pacific",
+      "nonstops": [
+        {
+          "fn": "0656",
+          "dep": "02:30",
+          "arr": "07:40",
+          "dur": "250",
+          "days": "1234567",
+          "ac": "B777"
+        },
+        {
+          "fn": "0660",
+          "dep": "10:10",
+          "arr": "15:30",
+          "dur": "260",
+          "days": "1234567",
+          "ac": "B777"
+        }
+      ]
+    },
+    {
+      "dest": "MAN",
+      "city": "Manchester",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "region": "Europe",
+      "nonstops": [
+        {
+          "fn": "0021",
+          "dep": "02:40",
+          "arr": "07:45",
+          "dur": "485",
+          "days": "1234567",
+          "ac": "A350"
+        },
+        {
+          "fn": "0017",
+          "dep": "06:55",
+          "arr": "12:00",
+          "dur": "485",
+          "days": "1234567",
+          "ac": "B777"
+        },
+        {
+          "fn": "0019",
+          "dep": "14:10",
+          "arr": "19:15",
+          "dur": "485",
+          "days": "1234567",
+          "ac": "B777"
+        }
+      ]
+    },
+    {
+      "dest": "MNL",
+      "city": "Manila",
+      "country": "Philippines",
+      "countryCode": "PH",
+      "region": "Asia and the Pacific",
+      "nonstops": [
+        {
+          "fn": "0332",
+          "dep": "03:10",
+          "arr": "16:15",
+          "dur": "545",
+          "days": "1234567",
+          "ac": "B777"
+        },
+        {
+          "fn": "0334",
+          "dep": "09:10",
+          "arr": "22:10",
+          "dur": "540",
+          "days": "1234567",
+          "ac": "B777"
+        },
+        {
+          "fn": "0330",
+          "dep": "12:20",
+          "arr": "01:25",
+          "dur": "545",
+          "days": "1.34.6.",
+          "ac": "B777"
+        },
+        {
+          "fn": "0336",
+          "dep": "17:00",
+          "arr": "05:55",
+          "dur": "535",
+          "days": "1234567",
+          "ac": "B777"
+        }
+      ]
+    },
+    {
+      "dest": "MRU",
+      "city": "Mauritius",
+      "country": "Mauritius",
+      "countryCode": "MU",
+      "region": "Africa",
+      "nonstops": [
+        {
+          "fn": "0701",
+          "dep": "02:50",
+          "arr": "09:25",
+          "dur": "395",
+          "days": "1234567",
+          "ac": "A380"
+        },
+        {
+          "fn": "0703",
+          "dep": "10:35",
+          "arr": "17:10",
+          "dur": "395",
+          "days": "1234567",
+          "ac": "A380"
+        }
+      ]
+    },
+    {
+      "dest": "MED",
+      "city": "Medina (Madinah)",
+      "country": "Saudi Arabia",
+      "countryCode": "SA",
+      "region": "The Middle East",
+      "nonstops": [
+        {
+          "fn": "0809",
+          "dep": "14:10",
+          "arr": "16:00",
+          "dur": "170",
+          "days": "1.34.67",
+          "ac": "B777"
+        }
+      ]
+    },
+    {
+      "dest": "MEL",
+      "city": "Melbourne",
+      "country": "Australia",
+      "countryCode": "AU",
+      "region": "Asia and the Pacific",
+      "nonstops": [
+        {
+          "fn": "0408",
+          "dep": "02:40",
+          "arr": "21:50",
+          "dur": "790",
+          "days": "1234567",
+          "ac": "A380"
+        },
+        {
+          "fn": "0406",
+          "dep": "10:05",
+          "arr": "05:30",
+          "dur": "805",
+          "days": "1234567",
+          "ac": "A380"
+        }
+      ]
+    },
+    {
+      "dest": "MIA",
+      "city": "Miami",
+      "country": "United States",
+      "countryCode": "US",
+      "region": "The Americas",
+      "nonstops": [
+        {
+          "fn": "0213",
+          "dep": "01:55",
+          "arr": "10:00",
+          "dur": "965",
+          "days": "123.567",
+          "ac": "B777"
+        }
+      ]
+    },
+    {
+      "dest": "MXP",
+      "city": "Milan",
+      "country": "Italy",
+      "countryCode": "IT",
+      "region": "Europe",
+      "nonstops": [
+        {
+          "fn": "0205",
+          "dep": "09:10",
+          "arr": "14:10",
+          "dur": "420",
+          "days": "1234567",
+          "ac": "A380"
+        },
+        {
+          "fn": "0091",
+          "dep": "15:15",
+          "arr": "20:15",
+          "dur": "420",
+          "days": "1234567",
+          "ac": "A380"
+        }
+      ]
+    },
+    {
+      "dest": "YUL",
+      "city": "Montréal",
+      "country": "Canada",
+      "countryCode": "CA",
+      "region": "The Americas",
+      "nonstops": [
+        {
+          "fn": "0243",
+          "dep": "02:20",
+          "arr": "08:00",
+          "dur": "820",
+          "days": "1234567",
+          "ac": "A350"
+        }
+      ]
+    },
+    {
+      "dest": "DME",
+      "city": "Moscow",
+      "country": "Russia",
+      "countryCode": "RU",
+      "region": "Europe",
+      "nonstops": [
+        {
+          "fn": "0133",
+          "dep": "08:20",
+          "arr": "14:30",
+          "dur": "430",
+          "days": "1234567",
+          "ac": "A380"
+        },
+        {
+          "fn": "0131",
+          "dep": "14:35",
+          "arr": "20:45",
+          "dur": "430",
+          "days": "1234567",
+          "ac": "B777"
+        }
+      ]
+    },
+    {
+      "dest": "BOM",
+      "city": "Mumbai (Bombay)",
+      "country": "India",
+      "countryCode": "IN",
+      "region": "Asia and the Pacific",
+      "nonstops": [
+        {
+          "fn": "0504",
+          "dep": "03:30",
+          "arr": "08:15",
+          "dur": "195",
+          "days": "1234567",
+          "ac": "B777"
+        },
+        {
+          "fn": "0506",
+          "dep": "09:30",
+          "arr": "14:15",
+          "dur": "195",
+          "days": "1234567",
+          "ac": "B777"
+        },
+        {
+          "fn": "0502",
+          "dep": "13:00",
+          "arr": "17:40",
+          "dur": "190",
+          "days": "1234567",
+          "ac": "A350"
+        },
+        {
+          "fn": "0508",
+          "dep": "16:00",
+          "arr": "20:45",
+          "dur": "195",
+          "days": "......7",
+          "ac": "B777"
+        },
+        {
+          "fn": "0508",
+          "dep": "16:00",
+          "arr": "20:45",
+          "dur": "195",
+          "days": "123456.",
+          "ac": "B777"
+        },
+        {
+          "fn": "0500",
+          "dep": "21:40",
+          "arr": "02:25",
+          "dur": "195",
+          "days": "1234567",
+          "ac": "A380"
+        }
+      ]
+    },
+    {
+      "dest": "MUC",
+      "city": "Munich",
+      "country": "Germany",
+      "countryCode": "DE",
+      "region": "Europe",
+      "nonstops": [
+        {
+          "fn": "0049",
+          "dep": "08:30",
+          "arr": "13:15",
+          "dur": "405",
+          "days": "1234567",
+          "ac": "B777"
+        },
+        {
+          "fn": "0051",
+          "dep": "15:55",
+          "arr": "20:40",
+          "dur": "405",
+          "days": "1..4567",
+          "ac": "B777"
+        }
+      ]
+    },
+    {
+      "dest": "MCT",
+      "city": "Muscat",
+      "country": "Oman",
+      "countryCode": "OM",
+      "region": "The Middle East",
+      "nonstops": [
+        {
+          "fn": "0866",
+          "dep": "02:15",
+          "arr": "03:30",
+          "dur": "75",
+          "days": "123.5.7",
+          "ac": "A350"
+        },
+        {
+          "fn": "0862",
+          "dep": "08:55",
+          "arr": "10:05",
+          "dur": "70",
+          "days": "...4.6.",
+          "ac": "A350"
+        }
+      ]
+    },
+    {
+      "dest": "NBO",
+      "city": "Nairobi",
+      "country": "Kenya",
+      "countryCode": "KE",
+      "region": "Africa",
+      "nonstops": [
+        {
+          "fn": "0719",
+          "dep": "10:30",
+          "arr": "14:30",
+          "dur": "300",
+          "days": "1234567",
+          "ac": "B777"
+        },
+        {
+          "fn": "0721",
+          "dep": "15:55",
+          "arr": "20:00",
+          "dur": "305",
+          "days": "1234567",
+          "ac": "B777"
+        }
+      ]
+    },
+    {
+      "dest": "JFK",
+      "city": "New York",
+      "country": "United States",
+      "countryCode": "US",
+      "region": "The Americas",
+      "nonstops": [
+        {
+          "fn": "0203",
+          "dep": "02:20",
+          "arr": "08:50",
+          "dur": "870",
+          "days": "1234567",
+          "ac": "A380"
+        },
+        {
+          "fn": "0201",
+          "dep": "07:55",
+          "arr": "14:25",
+          "dur": "870",
+          "days": "1234567",
+          "ac": "A380"
+        }
+      ]
+    },
+    {
+      "dest": "NCL",
+      "city": "Newcastle",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "region": "Europe",
+      "nonstops": [
+        {
+          "fn": "0035",
+          "dep": "06:55",
+          "arr": "12:05",
+          "dur": "490",
+          "days": ".2.4567",
+          "ac": "A350"
+        }
+      ]
+    },
+    {
+      "dest": "NCE",
+      "city": "Nice",
+      "country": "France",
+      "countryCode": "FR",
+      "region": "Europe",
+      "nonstops": [
+        {
+          "fn": "0077",
+          "dep": "08:40",
+          "arr": "13:30",
+          "dur": "410",
+          "days": "1234567",
+          "ac": "A380"
+        }
+      ]
+    },
+    {
+      "dest": "MCO",
+      "city": "Orlando",
+      "country": "United States",
+      "countryCode": "US",
+      "region": "The Americas",
+      "nonstops": [
+        {
+          "fn": "0219",
+          "dep": "02:15",
+          "arr": "10:25",
+          "dur": "970",
+          "days": "1..4.67",
+          "ac": "B777"
+        }
+      ]
+    },
+    {
+      "dest": "KIX",
+      "city": "Osaka",
+      "country": "Japan",
+      "countryCode": "JP",
+      "region": "Asia and the Pacific",
+      "nonstops": [
+        {
+          "fn": "0316",
+          "dep": "03:00",
+          "arr": "17:15",
+          "dur": "555",
+          "days": "1234567",
+          "ac": "B777"
+        }
+      ]
+    },
+    {
+      "dest": "OSL",
+      "city": "Oslo",
+      "country": "Norway",
+      "countryCode": "NO",
+      "region": "Europe",
+      "nonstops": [
+        {
+          "fn": "0159",
+          "dep": "07:25",
+          "arr": "13:30",
+          "dur": "485",
+          "days": "1234567",
+          "ac": "A350"
+        }
+      ]
+    },
+    {
+      "dest": "CDG",
+      "city": "Paris",
+      "country": "France",
+      "countryCode": "FR",
+      "region": "Europe",
+      "nonstops": [
+        {
+          "fn": "0071",
+          "dep": "03:50",
+          "arr": "09:20",
+          "dur": "450",
+          "days": "1234567",
+          "ac": "A380"
+        },
+        {
+          "fn": "0073",
+          "dep": "08:05",
+          "arr": "13:35",
+          "dur": "450",
+          "days": "1234567",
+          "ac": "A380"
+        },
+        {
+          "fn": "0075",
+          "dep": "14:30",
+          "arr": "20:00",
+          "dur": "450",
+          "days": "1234567",
+          "ac": "A380"
+        }
+      ]
+    },
+    {
+      "dest": "PER",
+      "city": "Perth",
+      "country": "Australia",
+      "countryCode": "AU",
+      "region": "Asia and the Pacific",
+      "nonstops": [
+        {
+          "fn": "0420",
+          "dep": "02:45",
+          "arr": "17:35",
+          "dur": "650",
+          "days": "1234567",
+          "ac": "B777"
+        }
+      ]
+    },
+    {
+      "dest": "HKT",
+      "city": "Phuket",
+      "country": "Thailand",
+      "countryCode": "TH",
+      "region": "Asia and the Pacific",
+      "nonstops": [
+        {
+          "fn": "0378",
+          "dep": "02:30",
+          "arr": "12:00",
+          "dur": "390",
+          "days": "1234567",
+          "ac": "B777"
+        }
+      ]
+    },
+    {
+      "dest": "PRG",
+      "city": "Prague",
+      "country": "Czech Republic",
+      "countryCode": "CZ",
+      "region": "Europe",
+      "nonstops": [
+        {
+          "fn": "0139",
+          "dep": "08:10",
+          "arr": "13:00",
+          "dur": "410",
+          "days": "1234567",
+          "ac": "B777"
+        }
+      ]
+    },
+    {
+      "dest": "GIG",
+      "city": "Rio de Janeiro",
+      "country": "Brazil",
+      "countryCode": "BR",
+      "region": "The Americas",
+      "nonstops": [
+        {
+          "fn": "0247",
+          "dep": "07:40",
+          "arr": "15:50",
+          "dur": "910",
+          "days": "1.3.56.",
+          "ac": "B777"
+        }
+      ]
+    },
+    {
+      "dest": "RUH",
+      "city": "Riyadh",
+      "country": "Saudi Arabia",
+      "countryCode": "SA",
+      "region": "The Middle East",
+      "nonstops": [
+        {
+          "fn": "0815",
+          "dep": "00:55",
+          "arr": "02:15",
+          "dur": "140",
+          "days": "1234567",
+          "ac": "B777"
+        },
+        {
+          "fn": "0819",
+          "dep": "06:45",
+          "arr": "08:05",
+          "dur": "140",
+          "days": "1234567",
+          "ac": "B777"
+        },
+        {
+          "fn": "0817",
+          "dep": "16:45",
+          "arr": "18:05",
+          "dur": "140",
+          "days": "1234567",
+          "ac": "B777"
+        }
+      ]
+    },
+    {
+      "dest": "FCO",
+      "city": "Rome",
+      "country": "Italy",
+      "countryCode": "IT",
+      "region": "Europe",
+      "nonstops": [
+        {
+          "fn": "0097",
+          "dep": "08:50",
+          "arr": "13:25",
+          "dur": "395",
+          "days": "1234567",
+          "ac": "A380"
+        },
+        {
+          "fn": "0095",
+          "dep": "15:30",
+          "arr": "20:05",
+          "dur": "395",
+          "days": "1234567",
+          "ac": "B777"
+        }
+      ]
+    },
+    {
+      "dest": "SFO",
+      "city": "San Francisco",
+      "country": "United States",
+      "countryCode": "US",
+      "region": "The Americas",
+      "nonstops": [
+        {
+          "fn": "0225",
+          "dep": "08:25",
+          "arr": "14:00",
+          "dur": "995",
+          "days": "1234567",
+          "ac": "A380"
+        }
+      ]
+    },
+    {
+      "dest": "SEA",
+      "city": "Seattle",
+      "country": "United States",
+      "countryCode": "US",
+      "region": "The Americas",
+      "nonstops": [
+        {
+          "fn": "0229",
+          "dep": "08:55",
+          "arr": "13:25",
+          "dur": "930",
+          "days": "1234567",
+          "ac": "B777"
+        }
+      ]
+    },
+    {
+      "dest": "ICN",
+      "city": "Seoul",
+      "country": "Korea, Republic of",
+      "countryCode": "KR",
+      "region": "Asia and the Pacific",
+      "nonstops": [
+        {
+          "fn": "0322",
+          "dep": "03:40",
+          "arr": "17:00",
+          "dur": "500",
+          "days": "1234567",
+          "ac": "A380"
+        },
+        {
+          "fn": "0324",
+          "dep": "05:20",
+          "arr": "18:40",
+          "dur": "500",
+          "days": "1.3.5..",
+          "ac": "B777"
+        }
+      ]
+    },
+    {
+      "dest": "PVG",
+      "city": "Shanghai",
+      "country": "China",
+      "countryCode": "CN",
+      "region": "Asia and the Pacific",
+      "nonstops": [
+        {
+          "fn": "0302",
+          "dep": "02:50",
+          "arr": "15:30",
+          "dur": "520",
+          "days": "1234567",
+          "ac": "A380"
+        },
+        {
+          "fn": "0304",
+          "dep": "09:40",
+          "arr": "22:20",
+          "dur": "520",
+          "days": "1234567",
+          "ac": "B777"
+        }
+      ]
+    },
+    {
+      "dest": "SZX",
+      "city": "Shenzhen",
+      "country": "China",
+      "countryCode": "CN",
+      "region": "Asia and the Pacific",
+      "nonstops": [
+        {
+          "fn": "0328",
+          "dep": "11:00",
+          "arr": "22:40",
+          "dur": "460",
+          "days": "1234567",
+          "ac": "B777"
+        }
+      ]
+    },
+    {
+      "dest": "SKT",
+      "city": "Sialkot",
+      "country": "Pakistan",
+      "countryCode": "PK",
+      "region": "Asia and the Pacific",
+      "nonstops": [
+        {
+          "fn": "0618",
+          "dep": "20:55",
+          "arr": "01:10",
+          "dur": "195",
+          "days": ".2.4.67",
+          "ac": "B777"
+        }
+      ]
+    },
+    {
+      "dest": "SIN",
+      "city": "Singapore",
+      "country": "Singapore",
+      "countryCode": "SG",
+      "region": "Asia and the Pacific",
+      "nonstops": [
+        {
+          "fn": "0348",
+          "dep": "02:20",
+          "arr": "14:05",
+          "dur": "465",
+          "days": "1234.67",
+          "ac": "B777"
+        },
+        {
+          "fn": "0352",
+          "dep": "10:00",
+          "arr": "21:45",
+          "dur": "465",
+          "days": "1234567",
+          "ac": "A380"
+        },
+        {
+          "fn": "0314",
+          "dep": "21:00",
+          "arr": "08:35",
+          "dur": "455",
+          "days": "123456.",
+          "ac": "B777"
+        }
+      ]
+    },
+    {
+      "dest": "LED",
+      "city": "St. Petersburg",
+      "country": "Russia",
+      "countryCode": "RU",
+      "region": "Europe",
+      "nonstops": [
+        {
+          "fn": "0175",
+          "dep": "14:00",
+          "arr": "21:10",
+          "dur": "490",
+          "days": ".2.4.6.",
+          "ac": "B777"
+        }
+      ]
+    },
+    {
+      "dest": "ARN",
+      "city": "Stockholm",
+      "country": "Sweden",
+      "countryCode": "SE",
+      "region": "Europe",
+      "nonstops": [
+        {
+          "fn": "0157",
+          "dep": "08:05",
+          "arr": "13:45",
+          "dur": "460",
+          "days": "1234567",
+          "ac": "B777"
+        }
+      ]
+    },
+    {
+      "dest": "SYD",
+      "city": "Sydney",
+      "country": "Australia",
+      "countryCode": "AU",
+      "region": "Asia and the Pacific",
+      "nonstops": [
+        {
+          "fn": "0414",
+          "dep": "02:15",
+          "arr": "22:05",
+          "dur": "830",
+          "days": "1234567",
+          "ac": "A380"
+        },
+        {
+          "fn": "0412",
+          "dep": "10:10",
+          "arr": "06:05",
+          "dur": "835",
+          "days": "1234567",
+          "ac": "A380"
+        },
+        {
+          "fn": "0416",
+          "dep": "21:40",
+          "arr": "17:30",
+          "dur": "830",
+          "days": "1234567",
+          "ac": "B777"
+        }
+      ]
+    },
+    {
+      "dest": "GRU",
+      "city": "São Paulo",
+      "country": "Brazil",
+      "countryCode": "BR",
+      "region": "The Americas",
+      "nonstops": [
+        {
+          "fn": "0261",
+          "dep": "08:30",
+          "arr": "17:15",
+          "dur": "945",
+          "days": "1234567",
+          "ac": "A380"
+        }
+      ]
+    },
+    {
+      "dest": "TPE",
+      "city": "Taipei",
+      "country": "Taiwan, China",
+      "countryCode": "TW",
+      "region": "Asia and the Pacific",
+      "nonstops": [
+        {
+          "fn": "0366",
+          "dep": "03:45",
+          "arr": "16:15",
+          "dur": "510",
+          "days": "1234567",
+          "ac": "A380"
+        },
+        {
+          "fn": "0386",
+          "dep": "08:45",
+          "arr": "21:20",
+          "dur": "515",
+          "days": ".234567",
+          "ac": "A350"
+        }
+      ]
+    },
+    {
+      "dest": "TRV",
+      "city": "Thiruvananthapuram (Trivandrum)",
+      "country": "India",
+      "countryCode": "IN",
+      "region": "Asia and the Pacific",
+      "nonstops": [
+        {
+          "fn": "0522",
+          "dep": "21:25",
+          "arr": "03:10",
+          "dur": "255",
+          "days": "1234567",
+          "ac": "B777"
+        }
+      ]
+    },
+    {
+      "dest": "HND",
+      "city": "Tokyo",
+      "country": "Japan",
+      "countryCode": "JP",
+      "region": "Asia and the Pacific",
+      "nonstops": [
+        {
+          "fn": "0312",
+          "dep": "07:40",
+          "arr": "22:20",
+          "dur": "580",
+          "days": "1234567",
+          "ac": "B777"
+        }
+      ]
+    },
+    {
+      "dest": "NRT",
+      "city": "Tokyo",
+      "country": "Japan",
+      "countryCode": "JP",
+      "region": "Asia and the Pacific",
+      "nonstops": [
+        {
+          "fn": "0318",
+          "dep": "02:40",
+          "arr": "17:35",
+          "dur": "595",
+          "days": "123...7",
+          "ac": "B777"
+        }
+      ]
+    },
+    {
+      "dest": "YYZ",
+      "city": "Toronto",
+      "country": "Canada",
+      "countryCode": "CA",
+      "region": "The Americas",
+      "nonstops": [
+        {
+          "fn": "0241",
+          "dep": "03:10",
+          "arr": "09:30",
+          "dur": "860",
+          "days": "1234567",
+          "ac": "A380"
+        }
+      ]
+    },
+    {
+      "dest": "TUN",
+      "city": "Tunis",
+      "country": "Tunisia",
+      "countryCode": "TN",
+      "region": "Africa",
+      "nonstops": [
+        {
+          "fn": "0747",
+          "dep": "08:40",
+          "arr": "11:55",
+          "dur": "375",
+          "days": "1.34567",
+          "ac": "A350"
+        }
+      ]
+    },
+    {
+      "dest": "VCE",
+      "city": "Venice",
+      "country": "Italy",
+      "countryCode": "IT",
+      "region": "Europe",
+      "nonstops": [
+        {
+          "fn": "0135",
+          "dep": "08:45",
+          "arr": "13:30",
+          "dur": "405",
+          "days": "1234567",
+          "ac": "B777"
+        }
+      ]
+    },
+    {
+      "dest": "VIE",
+      "city": "Vienna",
+      "country": "Austria",
+      "countryCode": "AT",
+      "region": "Europe",
+      "nonstops": [
+        {
+          "fn": "0127",
+          "dep": "08:30",
+          "arr": "12:55",
+          "dur": "385",
+          "days": "1234567",
+          "ac": "A380"
+        }
+      ]
+    },
+    {
+      "dest": "WAW",
+      "city": "Warsaw",
+      "country": "Poland",
+      "countryCode": "PL",
+      "region": "Europe",
+      "nonstops": [
+        {
+          "fn": "0179",
+          "dep": "07:55",
+          "arr": "12:15",
+          "dur": "380",
+          "days": "1234567",
+          "ac": "B777"
+        }
+      ]
+    },
+    {
+      "dest": "IAD",
+      "city": "Washington, D.C.",
+      "country": "United States",
+      "countryCode": "US",
+      "region": "The Americas",
+      "nonstops": [
+        {
+          "fn": "0231",
+          "dep": "02:00",
+          "arr": "08:40",
+          "dur": "880",
+          "days": "1234567",
+          "ac": "B777"
+        }
+      ]
+    },
+    {
+      "dest": "ZRH",
+      "city": "Zürich",
+      "country": "Switzerland",
+      "countryCode": "CH",
+      "region": "Europe",
+      "nonstops": [
+        {
+          "fn": "0087",
+          "dep": "08:20",
+          "arr": "13:20",
+          "dur": "420",
+          "days": "1234567",
+          "ac": "A380"
+        },
+        {
+          "fn": "0085",
+          "dep": "15:05",
+          "arr": "20:05",
+          "dur": "420",
+          "days": "1234567",
+          "ac": "B777"
+        }
+      ]
+    }
+  ]
+}

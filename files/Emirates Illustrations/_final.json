@@ -1,0 +1,1710 @@
+[
+{
+"region": "Europe",
+"fn": "EK147",
+"city": "Amsterdam",
+"iata": "AMS",
+"dep": "07:50",
+"arr": "13:15",
+"depb": "morning",
+"arrb": "afternoon",
+"allfn": [
+"EK145",
+"EK145",
+"EK147"
+]
+},
+{
+"region": "Europe",
+"fn": "EK209",
+"city": "Athens",
+"iata": "ATH",
+"dep": "10:50",
+"arr": "15:00",
+"depb": "morning",
+"arrb": "afternoon",
+"allfn": [
+"EK209",
+"EK103"
+]
+},
+{
+"region": "Europe",
+"fn": "EK185",
+"city": "Barcelona",
+"iata": "BCN",
+"dep": "07:50",
+"arr": "13:25",
+"depb": "morning",
+"arrb": "afternoon",
+"allfn": [
+"EK255",
+"EK185"
+]
+},
+{
+"region": "Europe",
+"fn": "EK39",
+"city": "Birmingham",
+"iata": "BHX",
+"dep": "07:30",
+"arr": "12:30",
+"depb": "morning",
+"arrb": "afternoon",
+"allfn": [
+"EK39",
+"EK39"
+]
+},
+{
+"region": "Europe",
+"fn": "EK93",
+"city": "Bologna",
+"iata": "BLQ",
+"dep": "08:55",
+"arr": "13:40",
+"depb": "morning",
+"arrb": "afternoon",
+"allfn": [
+"EK93"
+]
+},
+{
+"region": "Europe",
+"fn": "EK183",
+"city": "Brussels",
+"iata": "BRU",
+"dep": "07:50",
+"arr": "13:20",
+"depb": "morning",
+"arrb": "afternoon",
+"allfn": [
+"EK183",
+"EK181"
+]
+},
+{
+"region": "Europe",
+"fn": "EK111",
+"city": "Budapest",
+"iata": "BUD",
+"dep": "09:30",
+"arr": "13:55",
+"depb": "morning",
+"arrb": "afternoon",
+"allfn": [
+"EK111"
+]
+},
+{
+"region": "Europe",
+"fn": "EK151",
+"city": "Copenhagen",
+"iata": "CPH",
+"dep": "08:05",
+"arr": "13:15",
+"depb": "morning",
+"arrb": "afternoon",
+"allfn": [
+"EK151"
+]
+},
+{
+"region": "Europe",
+"fn": "EK161",
+"city": "Dublin",
+"iata": "DUB",
+"dep": "07:00",
+"arr": "12:20",
+"depb": "morning",
+"arrb": "afternoon",
+"allfn": [
+"EK161",
+"EK163"
+]
+},
+{
+"region": "Europe",
+"fn": "EK55",
+"city": "Düsseldorf",
+"iata": "DUS",
+"dep": "08:10",
+"arr": "13:25",
+"depb": "morning",
+"arrb": "afternoon",
+"allfn": [
+"EK55"
+]
+},
+{
+"region": "Europe",
+"fn": "EK23",
+"city": "Edinburgh",
+"iata": "EDI",
+"dep": "14:50",
+"arr": "20:05",
+"depb": "afternoon",
+"arrb": "evening",
+"allfn": [
+"EK23"
+]
+},
+{
+"region": "Europe",
+"fn": "EK45",
+"city": "Frankfurt am Main",
+"iata": "FRA",
+"dep": "08:10",
+"arr": "13:15",
+"depb": "morning",
+"arrb": "afternoon",
+"allfn": [
+"EK43",
+"EK45",
+"EK47"
+]
+},
+{
+"region": "Europe",
+"fn": "EK89",
+"city": "Geneva",
+"iata": "GVA",
+"dep": "08:00",
+"arr": "13:15",
+"depb": "morning",
+"arrb": "afternoon",
+"allfn": [
+"EK89",
+"EK83"
+]
+},
+{
+"region": "Europe",
+"fn": "EK27",
+"city": "Glasgow",
+"iata": "GLA",
+"dep": "07:15",
+"arr": "12:40",
+"depb": "morning",
+"arrb": "afternoon",
+"allfn": [
+"EK27"
+]
+},
+{
+"region": "Europe",
+"fn": "EK59",
+"city": "Hamburg",
+"iata": "HAM",
+"dep": "08:20",
+"arr": "13:35",
+"depb": "morning",
+"arrb": "afternoon",
+"allfn": [
+"EK59"
+]
+},
+{
+"region": "Europe",
+"fn": "EK123",
+"city": "Istanbul",
+"iata": "IST",
+"dep": "10:15",
+"arr": "14:25",
+"depb": "morning",
+"arrb": "afternoon",
+"allfn": [
+"EK123",
+"EK121",
+"EK117"
+]
+},
+{
+"region": "Europe",
+"fn": "EK109",
+"city": "Larnaca",
+"iata": "LCA",
+"dep": "07:25",
+"arr": "10:40",
+"depb": "morning",
+"arrb": "morning",
+"allfn": [
+"EK109"
+]
+},
+{
+"region": "Europe",
+"fn": "EK191",
+"city": "Lisbon",
+"iata": "LIS",
+"dep": "07:25",
+"arr": "12:35",
+"depb": "morning",
+"arrb": "afternoon",
+"allfn": [
+"EK191",
+"EK193"
+]
+},
+{
+"region": "Europe",
+"fn": "EK15",
+"city": "London",
+"iata": "LGW",
+"dep": "07:50",
+"arr": "12:35",
+"depb": "morning",
+"arrb": "afternoon",
+"allfn": [
+"EK11",
+"EK15",
+"EK9"
+]
+},
+{
+"region": "Europe",
+"fn": "EK1",
+"city": "London",
+"iata": "LHR",
+"dep": "07:35",
+"arr": "12:25",
+"depb": "morning",
+"arrb": "afternoon",
+"allfn": [
+"EK7",
+"EK1",
+"EK29",
+"EK3",
+"EK5"
+]
+},
+{
+"region": "Europe",
+"fn": "EK65",
+"city": "London",
+"iata": "STN",
+"dep": "08:10",
+"arr": "12:55",
+"depb": "morning",
+"arrb": "afternoon",
+"allfn": [
+"EK65"
+]
+},
+{
+"region": "Europe",
+"fn": "EK81",
+"city": "Lyon",
+"iata": "LYS",
+"dep": "08:40",
+"arr": "13:50",
+"depb": "morning",
+"arrb": "afternoon",
+"allfn": [
+"EK81"
+]
+},
+{
+"region": "Europe",
+"fn": "EK141",
+"city": "Madrid",
+"iata": "MAD",
+"dep": "07:30",
+"arr": "13:30",
+"depb": "morning",
+"arrb": "afternoon",
+"allfn": [
+"EK141",
+"EK143"
+]
+},
+{
+"region": "Europe",
+"fn": "EK19",
+"city": "Manchester",
+"iata": "MAN",
+"dep": "14:10",
+"arr": "19:15",
+"depb": "afternoon",
+"arrb": "evening",
+"allfn": [
+"EK21",
+"EK17",
+"EK19"
+]
+},
+{
+"region": "Europe",
+"fn": "EK205",
+"city": "Milan",
+"iata": "MXP",
+"dep": "09:10",
+"arr": "14:10",
+"depb": "morning",
+"arrb": "afternoon",
+"allfn": [
+"EK205",
+"EK91"
+]
+},
+{
+"region": "Europe",
+"fn": "EK133",
+"city": "Moscow",
+"iata": "DME",
+"dep": "08:20",
+"arr": "14:30",
+"depb": "morning",
+"arrb": "afternoon",
+"allfn": [
+"EK133",
+"EK131"
+]
+},
+{
+"region": "Europe",
+"fn": "EK49",
+"city": "Munich",
+"iata": "MUC",
+"dep": "08:30",
+"arr": "13:15",
+"depb": "morning",
+"arrb": "afternoon",
+"allfn": [
+"EK49",
+"EK51"
+]
+},
+{
+"region": "Europe",
+"fn": "EK35",
+"city": "Newcastle",
+"iata": "NCL",
+"dep": "06:55",
+"arr": "12:05",
+"depb": "early-morning",
+"arrb": "afternoon",
+"allfn": [
+"EK35"
+]
+},
+{
+"region": "Europe",
+"fn": "EK77",
+"city": "Nice",
+"iata": "NCE",
+"dep": "08:40",
+"arr": "13:30",
+"depb": "morning",
+"arrb": "afternoon",
+"allfn": [
+"EK77"
+]
+},
+{
+"region": "Europe",
+"fn": "EK159",
+"city": "Oslo",
+"iata": "OSL",
+"dep": "07:25",
+"arr": "13:30",
+"depb": "morning",
+"arrb": "afternoon",
+"allfn": [
+"EK159"
+]
+},
+{
+"region": "Europe",
+"fn": "EK73",
+"city": "Paris",
+"iata": "CDG",
+"dep": "08:05",
+"arr": "13:35",
+"depb": "morning",
+"arrb": "afternoon",
+"allfn": [
+"EK71",
+"EK73",
+"EK75"
+]
+},
+{
+"region": "Europe",
+"fn": "EK139",
+"city": "Prague",
+"iata": "PRG",
+"dep": "08:10",
+"arr": "13:00",
+"depb": "morning",
+"arrb": "afternoon",
+"allfn": [
+"EK139"
+]
+},
+{
+"region": "Europe",
+"fn": "EK97",
+"city": "Rome",
+"iata": "FCO",
+"dep": "08:50",
+"arr": "13:25",
+"depb": "morning",
+"arrb": "afternoon",
+"allfn": [
+"EK97",
+"EK95"
+]
+},
+{
+"region": "Europe",
+"fn": "EK175",
+"city": "St. Petersburg",
+"iata": "LED",
+"dep": "14:00",
+"arr": "21:10",
+"depb": "afternoon",
+"arrb": "night",
+"allfn": [
+"EK175"
+]
+},
+{
+"region": "Europe",
+"fn": "EK157",
+"city": "Stockholm",
+"iata": "ARN",
+"dep": "08:05",
+"arr": "13:45",
+"depb": "morning",
+"arrb": "afternoon",
+"allfn": [
+"EK157"
+]
+},
+{
+"region": "Europe",
+"fn": "EK135",
+"city": "Venice",
+"iata": "VCE",
+"dep": "08:45",
+"arr": "13:30",
+"depb": "morning",
+"arrb": "afternoon",
+"allfn": [
+"EK135"
+]
+},
+{
+"region": "Europe",
+"fn": "EK127",
+"city": "Vienna",
+"iata": "VIE",
+"dep": "08:30",
+"arr": "12:55",
+"depb": "morning",
+"arrb": "afternoon",
+"allfn": [
+"EK127"
+]
+},
+{
+"region": "Europe",
+"fn": "EK179",
+"city": "Warsaw",
+"iata": "WAW",
+"dep": "07:55",
+"arr": "12:15",
+"depb": "morning",
+"arrb": "afternoon",
+"allfn": [
+"EK179"
+]
+},
+{
+"region": "Europe",
+"fn": "EK87",
+"city": "Zürich",
+"iata": "ZRH",
+"dep": "08:20",
+"arr": "13:20",
+"depb": "morning",
+"arrb": "afternoon",
+"allfn": [
+"EK87",
+"EK85"
+]
+},
+{
+"region": "Americas",
+"fn": "EK237",
+"city": "Boston",
+"iata": "BOS",
+"dep": "08:15",
+"arr": "14:10",
+"depb": "morning",
+"arrb": "afternoon",
+"allfn": [
+"EK237"
+]
+},
+{
+"region": "Americas",
+"fn": "EK235",
+"city": "Chicago",
+"iata": "ORD",
+"dep": "09:35",
+"arr": "15:45",
+"depb": "morning",
+"arrb": "afternoon",
+"allfn": [
+"EK235"
+]
+},
+{
+"region": "Americas",
+"fn": "EK221",
+"city": "Dallas",
+"iata": "DFW",
+"dep": "02:10",
+"arr": "09:40",
+"depb": "night",
+"arrb": "morning",
+"allfn": [
+"EK221"
+]
+},
+{
+"region": "Americas",
+"fn": "EK211",
+"city": "Houston",
+"iata": "IAH",
+"dep": "09:15",
+"arr": "16:50",
+"depb": "morning",
+"arrb": "afternoon",
+"allfn": [
+"EK211"
+]
+},
+{
+"region": "Americas",
+"fn": "EK215",
+"city": "Los Angeles",
+"iata": "LAX",
+"dep": "08:10",
+"arr": "14:15",
+"depb": "morning",
+"arrb": "afternoon",
+"allfn": [
+"EK215"
+]
+},
+{
+"region": "Americas",
+"fn": "EK213",
+"city": "Miami",
+"iata": "MIA",
+"dep": "01:55",
+"arr": "10:00",
+"depb": "night",
+"arrb": "morning",
+"allfn": [
+"EK213"
+]
+},
+{
+"region": "Americas",
+"fn": "EK243",
+"city": "Montréal",
+"iata": "YUL",
+"dep": "02:20",
+"arr": "08:00",
+"depb": "night",
+"arrb": "morning",
+"allfn": [
+"EK243"
+]
+},
+{
+"region": "Americas",
+"fn": "EK201",
+"city": "New York",
+"iata": "JFK",
+"dep": "07:55",
+"arr": "14:25",
+"depb": "morning",
+"arrb": "afternoon",
+"allfn": [
+"EK203",
+"EK201"
+]
+},
+{
+"region": "Americas",
+"fn": "EK219",
+"city": "Orlando",
+"iata": "MCO",
+"dep": "02:15",
+"arr": "10:25",
+"depb": "night",
+"arrb": "morning",
+"allfn": [
+"EK219"
+]
+},
+{
+"region": "Americas",
+"fn": "EK247",
+"city": "Rio de Janeiro",
+"iata": "GIG",
+"dep": "07:40",
+"arr": "15:50",
+"depb": "morning",
+"arrb": "afternoon",
+"allfn": [
+"EK247"
+]
+},
+{
+"region": "Americas",
+"fn": "EK225",
+"city": "San Francisco",
+"iata": "SFO",
+"dep": "08:25",
+"arr": "14:00",
+"depb": "morning",
+"arrb": "afternoon",
+"allfn": [
+"EK225"
+]
+},
+{
+"region": "Americas",
+"fn": "EK229",
+"city": "Seattle",
+"iata": "SEA",
+"dep": "08:55",
+"arr": "13:25",
+"depb": "morning",
+"arrb": "afternoon",
+"allfn": [
+"EK229"
+]
+},
+{
+"region": "Americas",
+"fn": "EK261",
+"city": "São Paulo",
+"iata": "GRU",
+"dep": "08:30",
+"arr": "17:15",
+"depb": "morning",
+"arrb": "evening",
+"allfn": [
+"EK261"
+]
+},
+{
+"region": "Americas",
+"fn": "EK241",
+"city": "Toronto",
+"iata": "YYZ",
+"dep": "03:10",
+"arr": "09:30",
+"depb": "night",
+"arrb": "morning",
+"allfn": [
+"EK241"
+]
+},
+{
+"region": "Americas",
+"fn": "EK231",
+"city": "Washington, D.C.",
+"iata": "IAD",
+"dep": "02:00",
+"arr": "08:40",
+"depb": "night",
+"arrb": "morning",
+"allfn": [
+"EK231"
+]
+},
+{
+"region": "Far East & Australasia",
+"fn": "EK440",
+"city": "Adelaide",
+"iata": "ADL",
+"dep": "02:05",
+"arr": "20:05",
+"depb": "night",
+"arrb": "evening",
+"allfn": [
+"EK440"
+]
+},
+{
+"region": "Far East & Australasia",
+"fn": "EK448",
+"city": "Auckland",
+"iata": "AKL",
+"dep": "10:15",
+"arr": "10:05",
+"depb": "morning",
+"arrb": "morning",
+"allfn": [
+"EK448"
+]
+},
+{
+"region": "Far East & Australasia",
+"fn": "EK398",
+"city": "Bali",
+"iata": "DPS",
+"dep": "09:10",
+"arr": "22:25",
+"depb": "morning",
+"arrb": "night",
+"allfn": [
+"EK368",
+"EK398"
+]
+},
+{
+"region": "Far East & Australasia",
+"fn": "EK370",
+"city": "Bangkok",
+"iata": "BKK",
+"dep": "09:00",
+"arr": "18:25",
+"depb": "morning",
+"arrb": "evening",
+"allfn": [
+"EK384",
+"EK370",
+"EK372",
+"EK374",
+"EK374"
+]
+},
+{
+"region": "Far East & Australasia",
+"fn": "EK306",
+"city": "Beijing",
+"iata": "PEK",
+"dep": "03:50",
+"arr": "15:25",
+"depb": "night",
+"arrb": "afternoon",
+"allfn": [
+"EK306"
+]
+},
+{
+"region": "Far East & Australasia",
+"fn": "EK434",
+"city": "Brisbane",
+"iata": "BNE",
+"dep": "10:35",
+"arr": "06:25",
+"depb": "morning",
+"arrb": "early-morning",
+"allfn": [
+"EK434"
+]
+},
+{
+"region": "Far East & Australasia",
+"fn": "EK338",
+"city": "Cebu",
+"iata": "CEB",
+"dep": "02:55",
+"arr": "16:20",
+"depb": "night",
+"arrb": "afternoon",
+"allfn": [
+"EK338"
+]
+},
+{
+"region": "Far East & Australasia",
+"fn": "EK362",
+"city": "Guangzhou",
+"iata": "CAN",
+"dep": "10:15",
+"arr": "22:00",
+"depb": "morning",
+"arrb": "night",
+"allfn": [
+"EK362"
+]
+},
+{
+"region": "Far East & Australasia",
+"fn": "EK310",
+"city": "Hangzhou",
+"iata": "HGH",
+"dep": "03:25",
+"arr": "15:55",
+"depb": "night",
+"arrb": "afternoon",
+"allfn": [
+"EK310"
+]
+},
+{
+"region": "Far East & Australasia",
+"fn": "EK394",
+"city": "Hanoi",
+"iata": "HAN",
+"dep": "03:30",
+"arr": "13:15",
+"depb": "night",
+"arrb": "afternoon",
+"allfn": [
+"EK394"
+]
+},
+{
+"region": "Far East & Australasia",
+"fn": "EK392",
+"city": "Ho Chi Minh City",
+"iata": "SGN",
+"dep": "09:35",
+"arr": "20:00",
+"depb": "morning",
+"arrb": "evening",
+"allfn": [
+"EK392"
+]
+},
+{
+"region": "Far East & Australasia",
+"fn": "EK380",
+"city": "Hong Kong",
+"iata": "HKG",
+"dep": "10:00",
+"arr": "22:05",
+"depb": "morning",
+"arrb": "night",
+"allfn": [
+"EK382",
+"EK380"
+]
+},
+{
+"region": "Far East & Australasia",
+"fn": "EK358",
+"city": "Jakarta",
+"iata": "CGK",
+"dep": "10:50",
+"arr": "22:25",
+"depb": "morning",
+"arrb": "night",
+"allfn": [
+"EK356",
+"EK358"
+]
+},
+{
+"region": "Far East & Australasia",
+"fn": "EK342",
+"city": "Kuala Lumpur",
+"iata": "KUL",
+"dep": "10:25",
+"arr": "21:50",
+"depb": "morning",
+"arrb": "night",
+"allfn": [
+"EK346",
+"EK342"
+]
+},
+{
+"region": "Far East & Australasia",
+"fn": "EK334",
+"city": "Manila",
+"iata": "MNL",
+"dep": "09:10",
+"arr": "22:10",
+"depb": "morning",
+"arrb": "night",
+"allfn": [
+"EK332",
+"EK334",
+"EK330",
+"EK336"
+]
+},
+{
+"region": "Far East & Australasia",
+"fn": "EK406",
+"city": "Melbourne",
+"iata": "MEL",
+"dep": "10:05",
+"arr": "05:30",
+"depb": "morning",
+"arrb": "early-morning",
+"allfn": [
+"EK408",
+"EK406"
+]
+},
+{
+"region": "Far East & Australasia",
+"fn": "EK316",
+"city": "Osaka",
+"iata": "KIX",
+"dep": "03:00",
+"arr": "17:15",
+"depb": "night",
+"arrb": "evening",
+"allfn": [
+"EK316"
+]
+},
+{
+"region": "Far East & Australasia",
+"fn": "EK420",
+"city": "Perth",
+"iata": "PER",
+"dep": "02:45",
+"arr": "17:35",
+"depb": "night",
+"arrb": "evening",
+"allfn": [
+"EK420"
+]
+},
+{
+"region": "Far East & Australasia",
+"fn": "EK378",
+"city": "Phuket",
+"iata": "HKT",
+"dep": "02:30",
+"arr": "12:00",
+"depb": "night",
+"arrb": "afternoon",
+"allfn": [
+"EK378"
+]
+},
+{
+"region": "Far East & Australasia",
+"fn": "EK322",
+"city": "Seoul",
+"iata": "ICN",
+"dep": "03:40",
+"arr": "17:00",
+"depb": "night",
+"arrb": "evening",
+"allfn": [
+"EK322",
+"EK324"
+]
+},
+{
+"region": "Far East & Australasia",
+"fn": "EK304",
+"city": "Shanghai",
+"iata": "PVG",
+"dep": "09:40",
+"arr": "22:20",
+"depb": "morning",
+"arrb": "night",
+"allfn": [
+"EK302",
+"EK304"
+]
+},
+{
+"region": "Far East & Australasia",
+"fn": "EK328",
+"city": "Shenzhen",
+"iata": "SZX",
+"dep": "11:00",
+"arr": "22:40",
+"depb": "morning",
+"arrb": "night",
+"allfn": [
+"EK328"
+]
+},
+{
+"region": "Far East & Australasia",
+"fn": "EK352",
+"city": "Singapore",
+"iata": "SIN",
+"dep": "10:00",
+"arr": "21:45",
+"depb": "morning",
+"arrb": "night",
+"allfn": [
+"EK348",
+"EK352",
+"EK314"
+]
+},
+{
+"region": "Far East & Australasia",
+"fn": "EK412",
+"city": "Sydney",
+"iata": "SYD",
+"dep": "10:10",
+"arr": "06:05",
+"depb": "morning",
+"arrb": "early-morning",
+"allfn": [
+"EK414",
+"EK412",
+"EK416"
+]
+},
+{
+"region": "Far East & Australasia",
+"fn": "EK386",
+"city": "Taipei",
+"iata": "TPE",
+"dep": "08:45",
+"arr": "21:20",
+"depb": "morning",
+"arrb": "night",
+"allfn": [
+"EK366",
+"EK386"
+]
+},
+{
+"region": "Far East & Australasia",
+"fn": "EK312",
+"city": "Tokyo",
+"iata": "HND",
+"dep": "07:40",
+"arr": "22:20",
+"depb": "morning",
+"arrb": "night",
+"allfn": [
+"EK312"
+]
+},
+{
+"region": "Far East & Australasia",
+"fn": "EK318",
+"city": "Tokyo",
+"iata": "NRT",
+"dep": "02:40",
+"arr": "17:35",
+"depb": "night",
+"arrb": "evening",
+"allfn": [
+"EK318"
+]
+},
+{
+"region": "West Asia & Indian Ocean",
+"fn": "EK540",
+"city": "Ahmedabad",
+"iata": "AMD",
+"dep": "03:50",
+"arr": "08:10",
+"depb": "night",
+"arrb": "morning",
+"allfn": [
+"EK540",
+"EK538"
+]
+},
+{
+"region": "West Asia & Indian Ocean",
+"fn": "EK566",
+"city": "Bengaluru (Bangalore)",
+"iata": "BLR",
+"dep": "13:45",
+"arr": "19:20",
+"depb": "afternoon",
+"arrb": "evening",
+"allfn": [
+"EK564",
+"EK566",
+"EK568"
+]
+},
+{
+"region": "West Asia & Indian Ocean",
+"fn": "EK546",
+"city": "Chennai (Madras)",
+"iata": "MAA",
+"dep": "14:50",
+"arr": "20:30",
+"depb": "afternoon",
+"arrb": "evening",
+"allfn": [
+"EK544",
+"EK546",
+"EK542"
+]
+},
+{
+"region": "West Asia & Indian Ocean",
+"fn": "EK654",
+"city": "Colombo",
+"iata": "CMB",
+"dep": "10:45",
+"arr": "16:50",
+"depb": "morning",
+"arrb": "afternoon",
+"allfn": [
+"EK650",
+"EK654",
+"EK648"
+]
+},
+{
+"region": "West Asia & Indian Ocean",
+"fn": "EK586",
+"city": "Dhaka",
+"iata": "DAC",
+"dep": "10:35",
+"arr": "17:25",
+"depb": "morning",
+"arrb": "evening",
+"allfn": [
+"EK582",
+"EK586",
+"EK584",
+"EK584"
+]
+},
+{
+"region": "West Asia & Indian Ocean",
+"fn": "EK528",
+"city": "Hyderabad",
+"iata": "HYD",
+"dep": "15:00",
+"arr": "20:10",
+"depb": "afternoon",
+"arrb": "evening",
+"allfn": [
+"EK526",
+"EK528",
+"EK524"
+]
+},
+{
+"region": "West Asia & Indian Ocean",
+"fn": "EK612",
+"city": "Islamabad",
+"iata": "ISB",
+"dep": "03:20",
+"arr": "07:30",
+"depb": "night",
+"arrb": "morning",
+"allfn": [
+"EK612",
+"EK614"
+]
+},
+{
+"region": "West Asia & Indian Ocean",
+"fn": "EK600",
+"city": "Karachi",
+"iata": "KHI",
+"dep": "07:40",
+"arr": "10:45",
+"depb": "morning",
+"arrb": "morning",
+"allfn": [
+"EK600"
+]
+},
+{
+"region": "West Asia & Indian Ocean",
+"fn": "EK602",
+"city": "Karachi",
+"iata": "KHI",
+"dep": "18:00",
+"arr": "21:05",
+"depb": "evening",
+"arrb": "night",
+"allfn": [
+"EK602"
+]
+},
+{
+"region": "West Asia & Indian Ocean",
+"fn": "EK530",
+"city": "Kochi (Cochin)",
+"iata": "COK",
+"dep": "03:20",
+"arr": "08:55",
+"depb": "night",
+"arrb": "morning",
+"allfn": [
+"EK530",
+"EK532"
+]
+},
+{
+"region": "West Asia & Indian Ocean",
+"fn": "EK572",
+"city": "Kolkata (Calcutta)",
+"iata": "CCU",
+"dep": "13:05",
+"arr": "19:15",
+"depb": "afternoon",
+"arrb": "evening",
+"allfn": [
+"EK570",
+"EK572"
+]
+},
+{
+"region": "West Asia & Indian Ocean",
+"fn": "EK624",
+"city": "Lahore",
+"iata": "LHE",
+"dep": "03:10",
+"arr": "07:20",
+"depb": "night",
+"arrb": "morning",
+"allfn": [
+"EK624",
+"EK622"
+]
+},
+{
+"region": "West Asia & Indian Ocean",
+"fn": "EK707",
+"city": "Mahe",
+"iata": "SEZ",
+"dep": "08:55",
+"arr": "13:35",
+"depb": "morning",
+"arrb": "afternoon",
+"allfn": [
+"EK705",
+"EK707"
+]
+},
+{
+"region": "West Asia & Indian Ocean",
+"fn": "EK660",
+"city": "Malé",
+"iata": "MLE",
+"dep": "10:10",
+"arr": "15:30",
+"depb": "morning",
+"arrb": "afternoon",
+"allfn": [
+"EK656",
+"EK660"
+]
+},
+{
+"region": "West Asia & Indian Ocean",
+"fn": "EK506",
+"city": "Mumbai (Bombay)",
+"iata": "BOM",
+"dep": "09:30",
+"arr": "14:15",
+"depb": "morning",
+"arrb": "afternoon",
+"allfn": [
+"EK504",
+"EK506",
+"EK502",
+"EK508",
+"EK508",
+"EK500"
+]
+},
+{
+"region": "West Asia & Indian Ocean",
+"fn": "EK516",
+"city": "New Delhi",
+"iata": "DEL",
+"dep": "09:50",
+"arr": "14:45",
+"depb": "morning",
+"arrb": "afternoon",
+"allfn": [
+"EK510",
+"EK516",
+"EK514",
+"EK512"
+]
+},
+{
+"region": "West Asia & Indian Ocean",
+"fn": "EK618",
+"city": "Sialkot",
+"iata": "SKT",
+"dep": "20:55",
+"arr": "01:10",
+"depb": "evening",
+"arrb": "night",
+"allfn": [
+"EK618"
+]
+},
+{
+"region": "West Asia & Indian Ocean",
+"fn": "EK522",
+"city": "Thiruvananthapuram (Trivandrum)",
+"iata": "TRV",
+"dep": "21:25",
+"arr": "03:10",
+"depb": "night",
+"arrb": "night",
+"allfn": [
+"EK522"
+]
+},
+{
+"region": "Gulf & Middle East",
+"fn": "EK903",
+"city": "Amman",
+"iata": "AMM",
+"dep": "13:45",
+"arr": "16:30",
+"depb": "afternoon",
+"arrb": "afternoon",
+"allfn": [
+"EK903"
+]
+},
+{
+"region": "Gulf & Middle East",
+"fn": "EK837",
+"city": "Bahrain",
+"iata": "BAH",
+"dep": "08:30",
+"arr": "08:45",
+"depb": "morning",
+"arrb": "morning",
+"allfn": [
+"EK837",
+"EK839",
+"EK839"
+]
+},
+{
+"region": "Gulf & Middle East",
+"fn": "EK957",
+"city": "Beirut",
+"iata": "BEY",
+"dep": "09:25",
+"arr": "12:15",
+"depb": "morning",
+"arrb": "afternoon",
+"allfn": [
+"EK957"
+]
+},
+{
+"region": "Gulf & Middle East",
+"fn": "EK827",
+"city": "Dammam",
+"iata": "DMM",
+"dep": "07:40",
+"arr": "08:05",
+"depb": "morning",
+"arrb": "morning",
+"allfn": [
+"EK823",
+"EK827",
+"EK821",
+"EK821"
+]
+},
+{
+"region": "Gulf & Middle East",
+"fn": "EK803",
+"city": "Jeddah",
+"iata": "JED",
+"dep": "15:45",
+"arr": "17:45",
+"depb": "afternoon",
+"arrb": "evening",
+"allfn": [
+"EK801",
+"EK805",
+"EK803"
+]
+},
+{
+"region": "Gulf & Middle East",
+"fn": "EK857",
+"city": "Kuwait City",
+"iata": "KWI",
+"dep": "14:55",
+"arr": "15:45",
+"depb": "afternoon",
+"arrb": "afternoon",
+"allfn": [
+"EK857"
+]
+},
+{
+"region": "Gulf & Middle East",
+"fn": "EK809",
+"city": "Medina (Madinah)",
+"iata": "MED",
+"dep": "14:10",
+"arr": "16:00",
+"depb": "afternoon",
+"arrb": "afternoon",
+"allfn": [
+"EK809"
+]
+},
+{
+"region": "Gulf & Middle East",
+"fn": "EK862",
+"city": "Muscat",
+"iata": "MCT",
+"dep": "08:55",
+"arr": "10:05",
+"depb": "morning",
+"arrb": "morning",
+"allfn": [
+"EK866",
+"EK862"
+]
+},
+{
+"region": "Gulf & Middle East",
+"fn": "EK817",
+"city": "Riyadh",
+"iata": "RUH",
+"dep": "16:45",
+"arr": "18:05",
+"depb": "afternoon",
+"arrb": "evening",
+"allfn": [
+"EK815",
+"EK819",
+"EK817"
+]
+},
+{
+"region": "Africa",
+"fn": "EK787",
+"city": "Accra",
+"iata": "ACC",
+"dep": "07:10",
+"arr": "11:20",
+"depb": "morning",
+"arrb": "morning",
+"allfn": [
+"EK787"
+]
+},
+{
+"region": "Africa",
+"fn": "EK723",
+"city": "Addis Ababa",
+"iata": "ADD",
+"dep": "10:40",
+"arr": "13:45",
+"depb": "morning",
+"arrb": "afternoon",
+"allfn": [
+"EK723",
+"EK723"
+]
+},
+{
+"region": "Africa",
+"fn": "EK927",
+"city": "Cairo",
+"iata": "CAI",
+"dep": "08:15",
+"arr": "11:05",
+"depb": "morning",
+"arrb": "morning",
+"allfn": [
+"EK929",
+"EK927",
+"EK921",
+"EK923",
+"EK925"
+]
+},
+{
+"region": "Africa",
+"fn": "EK770",
+"city": "Cape Town",
+"iata": "CPT",
+"dep": "09:10",
+"arr": "16:40",
+"depb": "morning",
+"arrb": "afternoon",
+"allfn": [
+"EK772",
+"EK770"
+]
+},
+{
+"region": "Africa",
+"fn": "EK751",
+"city": "Casablanca",
+"iata": "CMN",
+"dep": "07:25",
+"arr": "12:40",
+"depb": "morning",
+"arrb": "afternoon",
+"allfn": [
+"EK751"
+]
+},
+{
+"region": "Africa",
+"fn": "EK795",
+"city": "Conakry",
+"iata": "CKY",
+"dep": "07:50",
+"arr": "13:05",
+"depb": "morning",
+"arrb": "afternoon",
+"allfn": [
+"EK795",
+"EK797"
+]
+},
+{
+"region": "Africa",
+"fn": "EK725",
+"city": "Dar Es Salaam",
+"iata": "DAR",
+"dep": "09:25",
+"arr": "13:50",
+"depb": "morning",
+"arrb": "afternoon",
+"allfn": [
+"EK725"
+]
+},
+{
+"region": "Africa",
+"fn": "EK775",
+"city": "Durban",
+"iata": "DUR",
+"dep": "10:15",
+"arr": "16:35",
+"depb": "morning",
+"arrb": "afternoon",
+"allfn": [
+"EK775"
+]
+},
+{
+"region": "Africa",
+"fn": "EK729",
+"city": "Entebbe",
+"iata": "EBB",
+"dep": "09:55",
+"arr": "14:25",
+"depb": "morning",
+"arrb": "afternoon",
+"allfn": [
+"EK729"
+]
+},
+{
+"region": "Africa",
+"fn": "EK763",
+"city": "Johannesburg",
+"iata": "JNB",
+"dep": "09:55",
+"arr": "16:15",
+"depb": "morning",
+"arrb": "afternoon",
+"allfn": [
+"EK761",
+"EK763",
+"EK765"
+]
+},
+{
+"region": "Africa",
+"fn": "EK783",
+"city": "Lagos",
+"iata": "LOS",
+"dep": "10:00",
+"arr": "15:35",
+"depb": "morning",
+"arrb": "afternoon",
+"allfn": [
+"EK783"
+]
+},
+{
+"region": "Africa",
+"fn": "EK793",
+"city": "Luanda",
+"iata": "NBJ",
+"dep": "09:45",
+"arr": "14:30",
+"depb": "morning",
+"arrb": "afternoon",
+"allfn": [
+"EK793"
+]
+},
+{
+"region": "Africa",
+"fn": "EK713",
+"city": "Lusaka",
+"iata": "LUN",
+"dep": "09:25",
+"arr": "14:35",
+"depb": "morning",
+"arrb": "afternoon",
+"allfn": [
+"EK713"
+]
+},
+{
+"region": "Africa",
+"fn": "EK703",
+"city": "Mauritius",
+"iata": "MRU",
+"dep": "10:35",
+"arr": "17:10",
+"depb": "morning",
+"arrb": "evening",
+"allfn": [
+"EK701",
+"EK703"
+]
+},
+{
+"region": "Africa",
+"fn": "EK719",
+"city": "Nairobi",
+"iata": "NBO",
+"dep": "10:30",
+"arr": "14:30",
+"depb": "morning",
+"arrb": "afternoon",
+"allfn": [
+"EK719",
+"EK721"
+]
+},
+{
+"region": "Africa",
+"fn": "EK747",
+"city": "Tunis",
+"iata": "TUN",
+"dep": "08:40",
+"arr": "11:55",
+"depb": "morning",
+"arrb": "morning",
+"allfn": [
+"EK747"
+]
+}
+]

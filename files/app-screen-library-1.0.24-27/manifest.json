@@ -1,0 +1,482 @@
+{
+  "app": "Kiki eSIM",
+  "version": "1.0.24",
+  "build": 27,
+  "device": "iPhone 17 Pro",
+  "os": "iOS 26.5",
+  "nativePixelSize": [
+    1206,
+    2622
+  ],
+  "screenCount": 78,
+  "screens": [
+    {
+      "path": "01-core/01-home.png",
+      "width": 1206,
+      "height": 2622,
+      "native_iPhone": true
+    },
+    {
+      "path": "01-core/02-plans.png",
+      "width": 1206,
+      "height": 2622,
+      "native_iPhone": true
+    },
+    {
+      "path": "01-core/03-my-esim.png",
+      "width": 1206,
+      "height": 2622,
+      "native_iPhone": true
+    },
+    {
+      "path": "01-core/04-profile.png",
+      "width": 1206,
+      "height": 2622,
+      "native_iPhone": true
+    },
+    {
+      "path": "01-core/05-welcome.png",
+      "width": 1206,
+      "height": 2622,
+      "native_iPhone": true
+    },
+    {
+      "path": "01-core/06-crew-verification.png",
+      "width": 1206,
+      "height": 2622,
+      "native_iPhone": true
+    },
+    {
+      "path": "01-core/07-onboarding.png",
+      "width": 1206,
+      "height": 2622,
+      "native_iPhone": true
+    },
+    {
+      "path": "01-core/08-account.png",
+      "width": 1206,
+      "height": 2622,
+      "native_iPhone": true
+    },
+    {
+      "path": "01-core/09-settings.png",
+      "width": 1206,
+      "height": 2622,
+      "native_iPhone": true
+    },
+    {
+      "path": "01-core/10-home-story-pay-as-you-go.png",
+      "width": 1206,
+      "height": 2622,
+      "native_iPhone": true
+    },
+    {
+      "path": "01-core/11-home-story-crew-plan.png",
+      "width": 1206,
+      "height": 2622,
+      "native_iPhone": true
+    },
+    {
+      "path": "01-core/12-home-story-verify-crew.png",
+      "width": 1206,
+      "height": 2622,
+      "native_iPhone": true
+    },
+    {
+      "path": "01-core/13-home-story-vacation.png",
+      "width": 1206,
+      "height": 2622,
+      "native_iPhone": true
+    },
+    {
+      "path": "01-core/14-home-scrolled-destinations.png",
+      "width": 1206,
+      "height": 2622,
+      "native_iPhone": true
+    },
+    {
+      "path": "01-core/15-home-scrolled-browse-by-type.png",
+      "width": 1206,
+      "height": 2622,
+      "native_iPhone": true
+    },
+    {
+      "path": "02-plans/01-landing-empty.png",
+      "width": 1206,
+      "height": 2622,
+      "native_iPhone": true
+    },
+    {
+      "path": "02-plans/02-search-france-results.png",
+      "width": 1206,
+      "height": 2622,
+      "native_iPhone": true
+    },
+    {
+      "path": "02-plans/03-france-all-plans.png",
+      "width": 1206,
+      "height": 2622,
+      "native_iPhone": true
+    },
+    {
+      "path": "02-plans/04-france-filtered-3gb-3days.png",
+      "width": 1206,
+      "height": 2622,
+      "native_iPhone": true
+    },
+    {
+      "path": "02-plans/05-united-states-standard.png",
+      "width": 1206,
+      "height": 2622,
+      "native_iPhone": true
+    },
+    {
+      "path": "02-plans/06-united-states-unlimited.png",
+      "width": 1206,
+      "height": 2622,
+      "native_iPhone": true
+    },
+    {
+      "path": "02-plans/07-unlimited-filtered-10days.png",
+      "width": 1206,
+      "height": 2622,
+      "native_iPhone": true
+    },
+    {
+      "path": "02-plans/08-no-results.png",
+      "width": 1206,
+      "height": 2622,
+      "native_iPhone": true
+    },
+    {
+      "path": "03-my-esim/01-tier-1-traveller.png",
+      "width": 1206,
+      "height": 2622,
+      "native_iPhone": true
+    },
+    {
+      "path": "03-my-esim/02-tier-2-verified-crew.png",
+      "width": 1206,
+      "height": 2622,
+      "native_iPhone": true
+    },
+    {
+      "path": "03-my-esim/03-tier-3-crew-bundle.png",
+      "width": 1206,
+      "height": 2622,
+      "native_iPhone": true
+    },
+    {
+      "path": "03-my-esim/04-tier-1-cycle-complete.png",
+      "width": 1206,
+      "height": 2622,
+      "native_iPhone": true
+    },
+    {
+      "path": "04-roster/01-upload.png",
+      "width": 1206,
+      "height": 2622,
+      "native_iPhone": true
+    },
+    {
+      "path": "04-roster/02-manual-entry.png",
+      "width": 1206,
+      "height": 2622,
+      "native_iPhone": true
+    },
+    {
+      "path": "04-roster/03-confirm-no-draft.png",
+      "width": 1206,
+      "height": 2622,
+      "native_iPhone": true
+    },
+    {
+      "path": "04-roster/04-trips.png",
+      "width": 1206,
+      "height": 2622,
+      "native_iPhone": true
+    },
+    {
+      "path": "04-roster/05-schedule.png",
+      "width": 1206,
+      "height": 2622,
+      "native_iPhone": true
+    },
+    {
+      "path": "05-profile/01-invite-crew.png",
+      "width": 1206,
+      "height": 2622,
+      "native_iPhone": true
+    },
+    {
+      "path": "05-profile/02-days-abroad.png",
+      "width": 1206,
+      "height": 2622,
+      "native_iPhone": true
+    },
+    {
+      "path": "05-profile/03-layover-planner.png",
+      "width": 1206,
+      "height": 2622,
+      "native_iPhone": true
+    },
+    {
+      "path": "05-profile/04-layover-intel.png",
+      "width": 1206,
+      "height": 2622,
+      "native_iPhone": true
+    },
+    {
+      "path": "05-profile/05-rewards-wallet.png",
+      "width": 1206,
+      "height": 2622,
+      "native_iPhone": true
+    },
+    {
+      "path": "05-profile/06-widgets.png",
+      "width": 1206,
+      "height": 2622,
+      "native_iPhone": true
+    },
+    {
+      "path": "05-profile/07-support.png",
+      "width": 1206,
+      "height": 2622,
+      "native_iPhone": true
+    },
+    {
+      "path": "05-profile/08-savings.png",
+      "width": 1206,
+      "height": 2622,
+      "native_iPhone": true
+    },
+    {
+      "path": "05-profile/09-gift-data.png",
+      "width": 1206,
+      "height": 2622,
+      "native_iPhone": true
+    },
+    {
+      "path": "05-profile/10-data-wallet.png",
+      "width": 1206,
+      "height": 2622,
+      "native_iPhone": true
+    },
+    {
+      "path": "05-profile/11-crew-mode-legacy.png",
+      "width": 1206,
+      "height": 2622,
+      "native_iPhone": true
+    },
+    {
+      "path": "05-profile/12-crew-recommendations.png",
+      "width": 1206,
+      "height": 2622,
+      "native_iPhone": true
+    },
+    {
+      "path": "05-profile/13-hotels.png",
+      "width": 1206,
+      "height": 2622,
+      "native_iPhone": true
+    },
+    {
+      "path": "05-profile/14-hotel-detail.png",
+      "width": 1206,
+      "height": 2622,
+      "native_iPhone": true
+    },
+    {
+      "path": "05-profile/15-rewards-card-expanded.png",
+      "width": 1206,
+      "height": 2622,
+      "native_iPhone": true
+    },
+    {
+      "path": "06-purchase/01-destination-france.png",
+      "width": 1206,
+      "height": 2622,
+      "native_iPhone": true
+    },
+    {
+      "path": "06-purchase/02-plan-detail-france.png",
+      "width": 1206,
+      "height": 2622,
+      "native_iPhone": true
+    },
+    {
+      "path": "06-purchase/03-checkout-france.png",
+      "width": 1206,
+      "height": 2622,
+      "native_iPhone": true
+    },
+    {
+      "path": "06-purchase/04-purchase-success.png",
+      "width": 1206,
+      "height": 2622,
+      "native_iPhone": true
+    },
+    {
+      "path": "06-purchase/05-esim-install.png",
+      "width": 1206,
+      "height": 2622,
+      "native_iPhone": true
+    },
+    {
+      "path": "06-purchase/06-esim-detail.png",
+      "width": 1206,
+      "height": 2622,
+      "native_iPhone": true
+    },
+    {
+      "path": "06-purchase/07-top-up.png",
+      "width": 1206,
+      "height": 2622,
+      "native_iPhone": true
+    },
+    {
+      "path": "06-purchase/08-bundle-tiers.png",
+      "width": 1206,
+      "height": 2622,
+      "native_iPhone": true
+    },
+    {
+      "path": "06-purchase/09-smart-plan.png",
+      "width": 1206,
+      "height": 2622,
+      "native_iPhone": true
+    },
+    {
+      "path": "06-purchase/10-how-it-works.png",
+      "width": 1206,
+      "height": 2622,
+      "native_iPhone": true
+    },
+    {
+      "path": "06-purchase/11-checkout-card-selected.png",
+      "width": 1206,
+      "height": 2622,
+      "native_iPhone": true
+    },
+    {
+      "path": "06-purchase/12-checkout-apple-pay-selected.png",
+      "width": 1206,
+      "height": 2622,
+      "native_iPhone": true
+    },
+    {
+      "path": "07-other/01-flight-detail.png",
+      "width": 1206,
+      "height": 2622,
+      "native_iPhone": true
+    },
+    {
+      "path": "07-other/02-live-flight.png",
+      "width": 1206,
+      "height": 2622,
+      "native_iPhone": true
+    },
+    {
+      "path": "07-other/03-experience.png",
+      "width": 1206,
+      "height": 2622,
+      "native_iPhone": true
+    },
+    {
+      "path": "07-other/04-akito-legacy.png",
+      "width": 1206,
+      "height": 2622,
+      "native_iPhone": true
+    },
+    {
+      "path": "07-other/05-v2-workspace.png",
+      "width": 1206,
+      "height": 2622,
+      "native_iPhone": true
+    },
+    {
+      "path": "07-other/06-folder-demo.png",
+      "width": 1206,
+      "height": 2622,
+      "native_iPhone": true
+    },
+    {
+      "path": "07-other/07-folder-motion.png",
+      "width": 1206,
+      "height": 2622,
+      "native_iPhone": true
+    },
+    {
+      "path": "07-other/08-dev-stickers.png",
+      "width": 1206,
+      "height": 2622,
+      "native_iPhone": true
+    },
+    {
+      "path": "07-other/09-flight-log-proof.png",
+      "width": 1206,
+      "height": 2622,
+      "native_iPhone": true
+    },
+    {
+      "path": "07-other/10-codex-onboarding.png",
+      "width": 1206,
+      "height": 2622,
+      "native_iPhone": true
+    },
+    {
+      "path": "07-other/11-flight-journey-animation.png",
+      "width": 1206,
+      "height": 2622,
+      "native_iPhone": true
+    },
+    {
+      "path": "07-other/12-flight-journey-paused.png",
+      "width": 1206,
+      "height": 2622,
+      "native_iPhone": true
+    },
+    {
+      "path": "07-other/13-flight-journey-complete.png",
+      "width": 1206,
+      "height": 2622,
+      "native_iPhone": true
+    },
+    {
+      "path": "08-popups/01-greeting-language-sheet.png",
+      "width": 1206,
+      "height": 2622,
+      "native_iPhone": true
+    },
+    {
+      "path": "08-popups/02-location-permission-prompt.png",
+      "width": 1206,
+      "height": 2622,
+      "native_iPhone": true
+    },
+    {
+      "path": "08-popups/03-verify-crew-email-sheet.png",
+      "width": 1206,
+      "height": 2622,
+      "native_iPhone": true
+    },
+    {
+      "path": "08-popups/04-verify-crew-email-filled.png",
+      "width": 1206,
+      "height": 2622,
+      "native_iPhone": true
+    },
+    {
+      "path": "08-popups/05-delete-account-confirmation.png",
+      "width": 1206,
+      "height": 2622,
+      "native_iPhone": true
+    },
+    {
+      "path": "08-popups/06-manual-roster-date-sheet.png",
+      "width": 1206,
+      "height": 2622,
+      "native_iPhone": true
+    }
+  ]
+}

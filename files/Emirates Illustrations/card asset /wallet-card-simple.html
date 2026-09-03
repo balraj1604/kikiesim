@@ -1,0 +1,249 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<title>Wallet card — simple in/out</title>
+<style>
+  :root{ --sheet:#efece6; }
+  *{box-sizing:border-box;margin:0;padding:0;-webkit-user-select:none;user-select:none;-webkit-touch-callout:none}
+  html,body{height:100%;background:#0d0f12;font-family:-apple-system,BlinkMacSystemFont,"Inter",system-ui,sans-serif}
+  .stage{position:relative;width:100%;max-width:430px;height:100dvh;margin:0 auto;overflow:hidden;background:#c9cccf}
+  .map{position:absolute;inset:0;background:radial-gradient(120% 80% at 50% 12%, #e9eaec 0%, #cfd2d5 55%, #bcc0c4 100%);}
+  .greeting{position:absolute;top:64px;left:26px;color:#2a2d31}
+  .greeting small{font-size:15px;opacity:.6}
+  .greeting b{display:block;font-size:30px;letter-spacing:-.5px;margin-top:2px}
+
+  /* HOME: a Wallet button */
+  .home{position:absolute;left:26px;right:26px;top:150px;z-index:5}
+  .homeBtn{display:flex;align-items:center;justify-content:center;gap:9px;background:#151515;color:#fff;border-radius:16px;padding:16px;font-size:16px;font-weight:700;cursor:pointer}
+  .homeMenu{margin-top:16px}
+  .homeMenu div{padding:11px 4px;font-size:16px;font-weight:600;color:#3a3d42;border-bottom:1px solid rgba(0,0,0,.06)}
+
+  .scrim{position:absolute;inset:0;background:#14171b;opacity:0;pointer-events:none;z-index:30}
+
+  .sheet{position:absolute;left:8px;right:8px;bottom:8px;height:440px;background:var(--sheet);border-radius:30px;padding:18px 16px 0;box-shadow:0 -10px 40px rgba(0,0,0,.18);transform:translateY(110%);transition:transform .5s cubic-bezier(.22,1,.36,1)}
+  .sheet.up{transform:translateY(0)}
+  .sheetHead{display:flex;align-items:center;justify-content:space-between;margin:2px 6px 14px}
+  .sheetHead h1{font-size:26px;letter-spacing:-.5px;color:#141414}
+  .sheetHead .x{width:30px;height:30px;border-radius:50%;background:rgba(0,0,0,.06);display:flex;align-items:center;justify-content:center;color:rgba(0,0,0,.4);font-size:15px;cursor:pointer}
+
+  .walletWrap{position:relative;margin:0 2px 6px;aspect-ratio:1536/1024;cursor:pointer}
+  .walletBack{position:absolute;inset:0;width:100%;height:100%;display:block;z-index:1}
+  /* stage-level front, positioned + clipped in measure(); z ABOVE the card */
+  .walletFront{position:absolute;z-index:51;pointer-events:none;overflow:hidden;display:none}
+  .walletFront img{width:100%;height:100%;display:block}
+
+  .hintlp{margin:2px 8px 0;font-size:12px;color:rgba(0,0,0,.4);text-align:center}
+
+  .fly{position:absolute;z-index:50;cursor:pointer;perspective:1200px;will-change:left,top,width,height,transform}
+  .flyInner{position:absolute;inset:0;transform-style:preserve-3d;transform-origin:center center}
+  .face{position:absolute;inset:0;width:100%;height:100%;border-radius:14px;overflow:hidden;backface-visibility:hidden}
+  .face img{width:100%;height:100%;display:block;object-fit:cover}
+  .back{transform:rotateY(180deg)}
+  /* only once it's OUT does it get a lift shadow */
+  .fly.out .face{box-shadow:0 16px 34px rgba(30,50,70,.34)}
+  /* tap = slide a bit to the right and settle back (a peek) */
+  .fly.peek{animation:peek .42s cubic-bezier(.3,1.2,.5,1)}
+  @keyframes peek{0%{transform:translateX(0)}45%{transform:translateX(26px)}100%{transform:translateX(0)}}
+
+  .detail{position:absolute;left:0;right:0;z-index:40;padding:0 30px;color:#eef1f4;opacity:0;pointer-events:none}
+  .lvl{display:flex;align-items:center;gap:10px;margin-bottom:14px}
+  .lvl .disc{width:34px;height:34px;border-radius:50%;background:rgba(255,255,255,.14);display:flex;align-items:center;justify-content:center}
+  .lvl b{font-size:19px;font-weight:700}
+  .track{height:5px;border-radius:5px;background:rgba(255,255,255,.16);margin-bottom:16px}
+  .stats{display:flex;justify-content:space-between;margin-bottom:20px}
+  .stats .n{font-size:26px;font-weight:800}
+  .stats .n s{font-size:14px;font-weight:600;text-decoration:none;opacity:.7}
+  .stats small{display:block;font-size:12px;opacity:.55;margin-top:2px}
+  .stats .r{text-align:right}
+  .hr{height:1px;background:rgba(255,255,255,.12);margin-bottom:18px}
+  .title{font-size:26px;font-weight:800;letter-spacing:-.4px;margin-bottom:12px}
+  .body{font-size:15px;line-height:1.5;color:rgba(255,255,255,.72);margin-bottom:26px}
+  .cta{display:flex;align-items:center;justify-content:center;gap:8px;background:rgba(255,255,255,.12);border-radius:26px;padding:15px;font-size:16px;font-weight:700}
+  .stg{opacity:0;transform:translateY(16px)}
+  .close{position:absolute;top:54px;right:22px;z-index:60;width:38px;height:38px;border-radius:50%;background:rgba(255,255,255,.12);display:none;align-items:center;justify-content:center;color:rgba(255,255,255,.8);font-size:18px;cursor:pointer}
+  .tuner{position:absolute;top:8px;left:8px;z-index:100;font-size:10px;color:#111;background:rgba(255,255,255,.7);border-radius:8px;padding:6px 8px;line-height:1.4}
+</style>
+</head>
+<body>
+<div class="stage" id="stage">
+  <div class="map"></div>
+  <div class="greeting"><small>Good afternoon!</small><b>Kuusamo</b></div>
+
+  <div class="home" id="home">
+    <div class="homeBtn" id="walletBtn">👛 &nbsp;Wallet</div>
+    <div class="homeMenu"><div>Mine</div><div>Trends</div><div>World</div></div>
+  </div>
+
+  <div class="scrim" id="scrim"></div>
+
+  <div class="sheet" id="sheet">
+    <div class="sheetHead"><h1>Mine</h1><div class="x" id="sheetX">✕</div></div>
+    <div class="walletWrap" id="walletWrap">
+      <!-- REST = the real composite (card perfectly tucked); swaps to the EMPTY
+           wallet the moment the card lifts out, so the pocket genuinely empties. -->
+      <img class="walletBack" id="walletBack" src="restbg.png" alt="wallet with card">
+    </div>
+    <div class="hintlp">Tap the card to nudge it · long-press to take it out</div>
+  </div>
+
+  <div class="fly" id="fly"><div class="flyInner" id="flyInner">
+    <div class="face front"><img src="card.png" alt="Flyer card"></div>
+    <div class="face back"><img src="card.png" alt="Flyer card back"></div>
+  </div></div>
+
+  <!-- front occluder: the flap + left panel, ON TOP of the card, so the card
+       genuinely tucks BEHIND the pocket flap (no overlap). Stage-level, aligned
+       to the wallet rect in measure(); fades out once the card lifts off. -->
+  <img class="walletFront" id="frontOcc" src="frontocc.png" alt="">
+
+
+  <div class="detail" id="detail">
+    <div class="lvl stg"><div class="disc">✈︎</div><b>1 · Flyer</b></div>
+    <div class="track stg"></div>
+    <div class="stats stg"><div><div class="n">0 <s>m</s></div><small>Total Distance</small></div><div class="r"><div class="n">5,810 <s>km</s></div><small>To Next Card</small></div></div>
+    <div class="hr stg"></div>
+    <div class="title stg">Flyer card added to your collection.</div>
+    <div class="body stg">Your first card has arrived.<br><br>Every journey in FocusFlight begins with a quiet lift: a moment of leaving the ground, and choosing to continue.</div>
+    <div class="cta stg">⌂ Currently on Home</div>
+  </div>
+
+  <div class="close" id="close">✕</div>
+  <div class="tuner" id="tuner">tap = jiggle · long-press = out</div>
+</div>
+
+<script>
+const CARD_ASPECT=1276/868;
+const CARDWK=0.84;                       // card full width (× wallet) — matches the pocket card
+// reward-proto motion: slide RIGHT → 360 flip → fly up (reverse on close)
+const SLIDE_END=0.50, SLIDE_RIGHTK=0.6, FWD_GROWK=0.5, ARC_PX=16, FLIP_DEG=360;
+const POCKET_HIDE=0.42;   // fraction of the card (from left) tucked in the pocket at rest
+const OPEN_MS=1500, CLOSE_MS=1250, LP_MS=420;
+
+const $=id=>document.getElementById(id);
+const stage=$('stage'),home=$('home'),sheet=$('sheet'),scrim=$('scrim'),fly=$('fly'),flyInner=$('flyInner'),detail=$('detail'),
+  walletWrap=$('walletWrap'),walletBack=$('walletBack'),frontOcc=$('frontOcc'),closeBtn=$('close');
+const stgItems=Array.from(document.querySelectorAll('.stg'));
+const clamp=(v,a,b)=>Math.max(a,Math.min(b,v));
+const ease=u=>{u=clamp(u,0,1);return u*u*(3-2*u);};
+let layout=null, raf=null, startTs=0, out=false, lpTimer=null, sheetOpen=false;
+
+function haptic(ms){ try{ if(navigator.vibrate) navigator.vibrate(ms); }catch(e){} }
+
+function measure(){
+  const s=stage.getBoundingClientRect(), w=walletWrap.getBoundingClientRect();
+  layout={left:w.left-s.left, top:w.top-s.top, width:w.width, height:w.height, sw:s.width, sh:s.height};
+  // align the front occluder exactly over the wallet rect
+  frontOcc.style.left=layout.left+'px'; frontOcc.style.top=layout.top+'px';
+  frontOcc.style.width=layout.width+'px'; frontOcc.style.height=layout.height+'px';
+}
+function geom(){
+  const L=layout;
+  const cw=L.width*CARDWK, ch=cw/CARD_ASPECT;
+  const from={ x:L.left+L.width*0.955 - cw, y:L.top+(L.height-ch)/2, w:cw, h:ch };
+  const endW=Math.min(L.sw-46,352), endH=endW/CARD_ASPECT;
+  const to={ x:(L.sw-endW)/2, y:Math.max(92,L.sh*0.15), w:endW, h:endH };
+  return {from,to};
+}
+function seg(t,a,b){ return clamp((t-a)/(b-a),0,1); }
+function kf(t,pts){ if(t<=pts[0][0]) return pts[0][1];
+  for(let i=0;i<pts.length-1;i++){ const [a,va]=pts[i],[b,vb]=pts[i+1]; if(t<=b) return va+(vb-va)*ease((t-a)/(b-a)); }
+  return pts[pts.length-1][1]; }
+function place(t){ // 0 = in pocket, 1 = reward slot. slide RIGHT → flip → fly up.
+  const {from,to}=geom();
+  const se=SLIDE_END;
+  // While sliding out the card stays EXACTLY pocket-size (never bigger than the
+  // wallet). It only grows once it lifts off, on its way to the top.
+  const mid={ x:from.x + from.w*SLIDE_RIGHTK, y:from.y - from.h*0.06, w:from.w };
+  const arc=Math.sin(seg(t,se,1)*Math.PI);
+  const x=kf(t,[[0,from.x],[se,mid.x],[1,to.x]]);
+  const y=kf(t,[[0,from.y],[se,mid.y],[1,to.y]]) - arc*ARC_PX;
+  // Stay EXACTLY pocket-size through the slide AND the flip; only grow to reward
+  // size in the final approach to the top (0.8 → 1). Growing any earlier makes it
+  // balloon while still over the wallet.
+  const w=kf(t,[[0,from.w],[0.8,from.w],[1,to.w]]);
+  const h=w/CARD_ASPECT;
+  const flip=ease(seg(t,se,0.98));
+  fly.style.left=x+'px'; fly.style.top=y+'px'; fly.style.width=w+'px'; fly.style.height=h+'px';
+  flyInner.style.transform=`rotateY(${(FLIP_DEG*flip)}deg)`;
+  fly.style.opacity='1';
+  fly.style.clipPath='none';   // occluder handles the tuck now — no flat clip
+  // Front occluder (flap + left panel) sits ABOVE the card so it tucks BEHIND
+  // the pocket flap: opaque while the card is in/near the pocket, fades out the
+  // instant it lifts off (so it doesn't sit over the dark reward view).
+  frontOcc.style.opacity=(1 - ease(seg(t, se*0.7, se*1.15))).toFixed(3);
+  // wallet eases to slightly translucent as the card leaves — natural lift-off.
+  walletBack.style.opacity=(1 - 0.4*ease(seg(t,0.08,0.8))).toFixed(2);
+  scrim.style.opacity=(0.9*ease(seg(t,se*0.8,0.96))).toFixed(3);
+}
+
+function positionRest(){ place(0); }
+
+function run(target){
+  cancelAnimationFrame(raf);
+  const dur=target===1?OPEN_MS:CLOSE_MS; startTs=0;
+  (function frame(ts){
+    if(!startTs) startTs=ts;
+    const u=clamp((ts-startTs)/dur,0,1);
+    place(target===1?u:1-u);
+    if(u<1) raf=requestAnimationFrame(frame);
+    else if(target===0){ closeBtn.style.display='none'; scrim.style.opacity=0;
+      walletBack.src='restbg.png'; fly.style.display='none'; frontOcc.style.display='none'; } // card back in → show composite
+  })(performance.now());
+}
+function staggerIn(){ stgItems.forEach((el,i)=>{ el.style.transition='opacity .5s ease, transform .5s cubic-bezier(.2,.8,.2,1)'; setTimeout(()=>{el.style.opacity=1;el.style.transform='translateY(0)';}, i*70); }); }
+function staggerOut(){ stgItems.forEach(el=>{ el.style.transition='opacity .16s ease'; el.style.opacity=0; el.style.transform='translateY(16px)'; }); }
+
+function openSheet(){ sheetOpen=true; sheet.classList.add('up');
+  // measure ONLY after the sheet has finished sliding up, else the wallet
+  // rect is mid-animation and the card lands outside the pocket.
+  const onEnd=(e)=>{ if(e.target!==sheet) return; sheet.removeEventListener('transitionend', onEnd);
+    measure(); positionRest(); }; // fly stays hidden — the composite shows the card
+  sheet.addEventListener('transitionend', onEnd);
+}
+function closeSheetAll(){ if(out) return; sheetOpen=false; sheet.classList.remove('up'); fly.style.display='none'; }
+
+function takeOut(){ if(out) return; out=true; haptic(18);
+  positionRest(); fly.style.display='block'; fly.classList.add('out');
+  frontOcc.style.display='block';                 // flap now covers the card's tucked part
+  walletBack.src='walletempty.png';               // pocket empties as the card leaves
+  closeBtn.style.display='flex'; detail.style.opacity=1;
+  const {to}=geom(); detail.style.top=(to.y+to.h+26)+'px'; detail.style.width='100%';
+  setTimeout(staggerIn, OPEN_MS*0.6); run(1);
+}
+function putBack(){ if(!out) return; out=false; staggerOut(); detail.style.opacity=0; run(0);
+  setTimeout(()=>fly.classList.remove('out'), CLOSE_MS); }
+
+// tap = the card slides a bit to the right and settles back (a peek nudge)
+function jiggle(){ if(out) return; haptic(8);
+  positionRest(); fly.style.opacity='1'; fly.style.display='block';
+  frontOcc.style.opacity='1'; frontOcc.style.display='block';   // tuck the peeking card
+  walletBack.src='walletempty.png';
+  fly.classList.remove('peek'); void fly.offsetWidth; fly.classList.add('peek');
+  setTimeout(()=>{ if(!out){ fly.classList.remove('peek'); fly.style.display='none';
+    frontOcc.style.display='none'; walletBack.src='restbg.png'; } }, 440);
+}
+
+// interactions: tap = jiggle, long-press = take out
+let pressStart=0, moved=false;
+function down(e){ if(out) return; moved=false; pressStart=Date.now(); lpTimer=setTimeout(()=>{ lpTimer=null; takeOut(); }, LP_MS); }
+function up(e){ if(lpTimer){ clearTimeout(lpTimer); lpTimer=null; if(!out && !moved) jiggle(); } }
+// at rest the card is hidden (the composite shows it), so tap/long-press must
+// listen on the WALLET itself (the pocket). When OUT, the fly reward card closes.
+[walletWrap, fly].forEach(el=>{
+  el.addEventListener('mousedown', down); el.addEventListener('touchstart', down, {passive:true});
+  el.addEventListener('mouseup', up);     el.addEventListener('touchend', up);
+  el.addEventListener('mouseleave', ()=>{ if(lpTimer){clearTimeout(lpTimer);lpTimer=null;} });
+});
+fly.addEventListener('click', e=>{ if(out) putBack(); });
+closeBtn.addEventListener('click', putBack);
+
+$('walletBtn').addEventListener('click', openSheet);
+$('sheetX').addEventListener('click', closeSheetAll);
+stgItems.forEach(el=>{el.style.opacity=0;el.style.transform='translateY(16px)';});
+fly.style.display='none';
+window.addEventListener('resize', ()=>{ if(sheetOpen && !out){ measure(); positionRest(); } });
+</script>
+</body>
+</html>
